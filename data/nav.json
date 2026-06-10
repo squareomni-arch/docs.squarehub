@@ -1,0 +1,630 @@
+[
+  {
+    "emoji": "🚀",
+    "name": "SquareHub 101",
+    "slug": "chatwoot-101",
+    "articles": [
+      {
+        "slug": "1677141565-chatwoot-glossary",
+        "title": "Bảng thuật ngữ SquareHub"
+      },
+      {
+        "slug": "1673260810-getting-started-chatwoot-101",
+        "title": "Bắt đầu với SquareHub"
+      },
+      {
+        "slug": "1677229173-lesson-1-your-first-chatwoot-conversation",
+        "title": "Bài học 1: Cuộc hội thoại đầu tiên của bạn trên SquareHub"
+      },
+      {
+        "slug": "1677231493-lesson-2-dashboard-basics",
+        "title": "Bài 2: Những kiến thức cơ bản về bảng điều khiển"
+      },
+      {
+        "slug": "1677235281-lesson-3-a-mastering-core-features",
+        "title": "Bài 3 (a): Thành thạo các tính năng cốt lõi"
+      },
+      {
+        "slug": "1677237449-lesson-3-b-mastering-core-features",
+        "title": "Bài học 3 (b): Làm việc với Bối cảnh Khách hàng"
+      },
+      {
+        "slug": "1677238266-lesson-4-complete-your-customer-engagement-suite",
+        "title": "Bài 4: Tự động hóa và Định tuyến"
+      },
+      {
+        "slug": "1777328078-lesson-5-ai-actions",
+        "title": "Bài 5: Hành động AI"
+      },
+      {
+        "slug": "1777328138-lesson-6-reports-and-metrics",
+        "title": "Bài 6: Báo cáo và Chỉ số"
+      }
+    ]
+  },
+  {
+    "emoji": "👝",
+    "name": "Thiết lập tài khoản",
+    "slug": "setup-account",
+    "articles": [
+      {
+        "slug": "1677242820-create-your-chatwoot-account",
+        "title": "Tạo tài khoản SquareHub"
+      },
+      {
+        "slug": "1677477447-customizing-your-personal-profile",
+        "title": "Tùy chỉnh hồ sơ cá nhân của bạn"
+      },
+      {
+        "slug": "1731478912-setting-up-notifications",
+        "title": "Thiết lập thông báo"
+      },
+      {
+        "slug": "1677480617-customizing-your-general-settings",
+        "title": "Cập nhật cài đặt tài khoản"
+      },
+      {
+        "slug": "1677482414-adding-agents",
+        "title": "Cách mời nhân viên hỗ trợ và quản lý nhóm hỗ trợ của bạn?"
+      },
+      {
+        "slug": "1677492191-adding-inboxes",
+        "title": "Kênh là gì? Inbox là gì?"
+      },
+      {
+        "slug": "1677492970-adding-teams",
+        "title": "Hướng dẫn toàn diện về nhóm trong SquareHub"
+      }
+    ]
+  },
+  {
+    "emoji": "💬",
+    "name": "Live chat trên website",
+    "slug": "website-live-chat",
+    "articles": [
+      {
+        "slug": "1677580558-website-live-chat-settings-explained",
+        "title": "Giải thích các cài đặt live chat trên website"
+      },
+      {
+        "slug": "1677588225-how-to-install-live-chat-using-google-tag-manager",
+        "title": "Cách cài đặt live chat bằng Google Tag Manager?"
+      },
+      {
+        "slug": "1677669621-how-to-install-live-chat-on-a-docusaurus-website",
+        "title": "Cách cài đặt live chat trên website Docusaurus?"
+      },
+      {
+        "slug": "1677671793-how-to-install-live-chat-on-a-webflow-website",
+        "title": "Cách cài đặt live chat trên website Webflow?"
+      },
+      {
+        "slug": "1677671443-how-to-install-live-chat-on-a-gatsby-website",
+        "title": "Cách cài đặt live chat trên website Gatsby?"
+      },
+      {
+        "slug": "1677669989-how-to-install-live-chat-on-a-word_press-website",
+        "title": "Cách cài đặt live chat trên website WordPress?"
+      },
+      {
+        "slug": "1677672686-how-to-install-live_chat-on-a-react-native-app",
+        "title": "Cách cài đặt live chat trên ứng dụng React Native?"
+      },
+      {
+        "slug": "1677676986-how-to-install-live_chat-on-a-next-js-app",
+        "title": "Cách cài đặt live chat trên ứng dụng Next.js?"
+      },
+      {
+        "slug": "1677677232-how-to-install-live_chat-on-a-vue-js-app",
+        "title": "Cách cài đặt live chat trên ứng dụng Vue.js?"
+      },
+      {
+        "slug": "1677587234-how-to-send-additional-user-information-to-chatwoot-using-sdk",
+        "title": "Cách gửi thông tin người dùng bổ sung đến SquareHub bằng SDK?"
+      },
+      {
+        "slug": "1677587761-how-to-continue-conversations-through-email",
+        "title": "Cách tiếp tục cuộc hội thoại qua email?"
+      },
+      {
+        "slug": "1677587479-how-to-enable-identity-validation-in-chatwoot",
+        "title": "Cách bật xác thực danh tính trong SquareHub?"
+      },
+      {
+        "slug": "1677587636-how-to-enable-dark-mode-on-live_chat-widget",
+        "title": "Cách bật chế độ tối trên widget live chat?"
+      }
+    ]
+  },
+  {
+    "emoji": "🪵",
+    "name": "Các kênh khác",
+    "slug": "other-channels",
+    "articles": [
+      {
+        "slug": "1677778588-how-to-setup-a-facebook-channel",
+        "title": "Cách thiết lập kênh Facebook?"
+      },
+      {
+        "slug": "1677831888-how-to-setup-a-twitter-channel",
+        "title": "Cách thiết lập kênh Twitter?"
+      },
+      {
+        "slug": "1677832735-how-to-setup-a-whats_app-channel",
+        "title": "Cách thiết lập kênh WhatsApp?"
+      },
+      {
+        "slug": "1677846958-how-to-setup-an-sms-channel",
+        "title": "Cách thiết lập kênh SMS?"
+      },
+      {
+        "slug": "1677843043-how-to-setup-an-email-channel",
+        "title": "Cách thiết lập kênh Email?"
+      },
+      {
+        "slug": "1677838569-how-to-setup-a-telegram-channel",
+        "title": "Cách thiết lập kênh Telegram?"
+      },
+      {
+        "slug": "1677838977-how-to-setup-a-line-channel",
+        "title": "Cách thiết lập kênh Line?"
+      },
+      {
+        "slug": "1677839703-how-to-create-an-api-channel-inbox",
+        "title": "Cách tạo inbox kênh API?"
+      },
+      {
+        "slug": "1742910590-how-to-set-up-a-whats_app-channel-with-twilio",
+        "title": "Cách thiết lập kênh WhatsApp với Twilio?"
+      },
+      {
+        "slug": "1744361165-how-to-setup-an-instagram-channel-via-instagram-login",
+        "title": "Cách thiết lập kênh Instagram?"
+      },
+      {
+        "slug": "1752129193-how-to-use-whatsapp-embedded-signup",
+        "title": "Cách thiết lập kênh WhatsApp (Đăng ký nhúng)"
+      },
+      {
+        "slug": "1756799850-how-to-setup-a-whats_app-channel-manual-flow",
+        "title": "Cách thiết lập kênh WhatsApp (Quy trình thủ công)?"
+      },
+      {
+        "slug": "1769595702-how-to-setup-a-tik_tok-channel",
+        "title": "Cách thiết lập kênh TikTok?"
+      }
+    ]
+  },
+  {
+    "emoji": "📞",
+    "name": "Kênh thoại",
+    "slug": "voice-channels",
+    "articles": [
+      {
+        "slug": "1779863425-voice-calling-in-chatwoot",
+        "title": "Gọi thoại trong SquareHub"
+      },
+      {
+        "slug": "1779871614-connecting-twilio-voice-channel",
+        "title": "Kết nối kênh thoại Twilio"
+      },
+      {
+        "slug": "1779871708-connecting-whats_app-voice-channel",
+        "title": "Kết nối kênh gọi thoại WhatsApp"
+      }
+    ]
+  },
+  {
+    "emoji": "📚",
+    "name": "Giải thích tính năng",
+    "slug": "features-explained",
+    "articles": [
+      {
+        "slug": "1677496066-how-to-add-labels",
+        "title": "Cách thêm nhãn?"
+      },
+      {
+        "slug": "1677497472-how-to-use-agent-bots",
+        "title": "Cách sử dụng Agent bot?"
+      },
+      {
+        "slug": "1677498364-understanding-contacts",
+        "title": "Tìm hiểu về Danh bạ liên hệ"
+      },
+      {
+        "slug": "1677501325-how-to-create-saved-reply-templates-with-canned-responses",
+        "title": "Cách tạo mẫu trả lời nhanh với Canned Responses?"
+      },
+      {
+        "slug": "1677502327-how-to-create-and-use-custom-attributes",
+        "title": "Cách tạo và sử dụng thuộc tính tùy chỉnh?"
+      },
+      {
+        "slug": "1677503828-how-to-enable-csat-surveys",
+        "title": "Cách kích hoạt khảo sát CSAT?"
+      },
+      {
+        "slug": "1682679737-how-to-assign-a-priority",
+        "title": "Cách gán mức độ ưu tiên"
+      },
+      {
+        "slug": "1695209306-how-to-use-the-omnichannel-message-signature",
+        "title": "Cách sử dụng chữ ký tin nhắn đa kênh?"
+      },
+      {
+        "slug": "1732243644-preventing-agent-collision",
+        "title": "Ngăn chặn xung đột giữa các nhân viên hỗ trợ"
+      },
+      {
+        "slug": "1741923706-manage-team-access-control-with-flexible-role_based-permissions",
+        "title": "Quản lý kiểm soát truy cập nhóm với phân quyền dựa trên vai trò linh hoạt"
+      },
+      {
+        "slug": "1768303449-whats_app-csat-surveys-in-chatwoot",
+        "title": "Khảo sát CSAT trên WhatsApp bằng Template"
+      },
+      {
+        "slug": "1768536939-review-notes-for-csat",
+        "title": "Ghi chú đánh giá cho CSAT"
+      },
+      {
+        "slug": "1777421876-business-hours-and-auto_responder",
+        "title": "Giờ làm việc và tự động trả lời ngoài giờ"
+      }
+    ]
+  },
+  {
+    "emoji": "🔎",
+    "name": "Các tính năng nâng cao",
+    "slug": "advanced-features-explained",
+    "articles": [
+      {
+        "slug": "1677688192-how-to-use-conversation-filters",
+        "title": "Cách sử dụng Bộ lọc Cuộc hội thoại?"
+      },
+      {
+        "slug": "1677688647-how-to-use-pre_chat-forms",
+        "title": "Cách sử dụng biểu mẫu trước cuộc trò chuyện (pre-chat forms)?"
+      },
+      {
+        "slug": "1677738682-how-to-use-campaigns",
+        "title": "Cách sử dụng tính năng Campaigns?"
+      },
+      {
+        "slug": "1677689344-how-to-use-interactive-messages",
+        "title": "Cách tạo tin nhắn tương tác?"
+      },
+      {
+        "slug": "1677689800-how-to-use-automation",
+        "title": "Cách sử dụng tính năng Tự động hóa?"
+      },
+      {
+        "slug": "1677691027-how-to-setup-a-web_socket-connection",
+        "title": "Cách thiết lập kết nối WebSocket?"
+      },
+      {
+        "slug": "1679579699-template-variables",
+        "title": "Cách sử dụng biến mẫu?"
+      },
+      {
+        "slug": "1679978392-how-to-use-macros",
+        "title": "Cách sử dụng macro?"
+      },
+      {
+        "slug": "1692251809-how-to-use-audit-logs",
+        "title": "Cách sử dụng Nhật ký kiểm tra?"
+      },
+      {
+        "slug": "1712785075-wildcard-url-support-in-website-live_chat-campaigns",
+        "title": "Hỗ trợ URL wildcard trong campaigns live chat trên website"
+      },
+      {
+        "slug": "1713167310-service-level-agreemtns",
+        "title": "Thỏa thuận mức độ dịch vụ (SLA)"
+      },
+      {
+        "slug": "1740546374-how-does-sorting-work",
+        "title": "Tính năng sắp xếp hoạt động như thế nào?"
+      },
+      {
+        "slug": "1741998212-agent-capacity",
+        "title": "Thiết lập giới hạn cuộc hội thoại cho từng nhân viên hỗ trợ với Chính sách Năng lực Nhân viên"
+      },
+      {
+        "slug": "1745225158-what-is-human-agent-tag-in-instagram-messenger-channel",
+        "title": "Thẻ Human Agent trong kênh Instagram/Messenger là gì"
+      },
+      {
+        "slug": "1754940076-whatsapp-templates",
+        "title": "Mẫu tin nhắn WhatsApp"
+      },
+      {
+        "slug": "1756195741-twilio-content-templates",
+        "title": "Mẫu nội dung Twilio"
+      },
+      {
+        "slug": "1758635327-setting-up-saml",
+        "title": "Thiết lập xác thực SAML"
+      },
+      {
+        "slug": "1768986869-common-whats_app-issues-and-how-to-fix-them",
+        "title": "Các sự cố WhatsApp thường gặp và cách khắc phục"
+      },
+      {
+        "slug": "1769161760-required-conversation-attributes",
+        "title": "Thuộc tính bắt buộc của hội thoại"
+      },
+      {
+        "slug": "1763978164-chatwoot-assignment-v2",
+        "title": "Chính sách phân công nâng cao"
+      }
+    ]
+  },
+  {
+    "emoji": "⚡",
+    "name": "Ứng dụng và Tích hợp",
+    "slug": "apps-and-integrations",
+    "articles": [
+      {
+        "slug": "1677743452-how-to-integrate-your-dialogflow-chatbot-with-chatwoot",
+        "title": "Cách tích hợp chatbot Dialogflow vào SquareHub?"
+      },
+      {
+        "slug": "1677693021-how-to-use-webhooks",
+        "title": "Cách sử dụng webhook?"
+      },
+      {
+        "slug": "1677774874-how-to-answer-conversations-from-slack",
+        "title": "Cách trả lời cuộc hội thoại từ Slack?"
+      },
+      {
+        "slug": "1677691702-how-to-use-dashboard-apps",
+        "title": "Cách sử dụng Dashboard Apps?"
+      },
+      {
+        "slug": "1679928145-how-to-enable-video-calls-with-dyte-integration",
+        "title": "Cách bật tính năng gọi video với tích hợp Dyte?"
+      },
+      {
+        "slug": "1679916448-how-to-translate-your-messages-with-google-translate",
+        "title": "Cách dịch tin nhắn bằng Google Translate?"
+      },
+      {
+        "slug": "1683707349-openai",
+        "title": "Cách nâng cao cuộc hội thoại với tích hợp OpenAI?"
+      },
+      {
+        "slug": "1739949089-how-to-track-issues-and-features-with-linear-integration",
+        "title": "Cách theo dõi Vấn đề và Tính năng với tích hợp Linear?"
+      }
+    ]
+  },
+  {
+    "emoji": "📊",
+    "name": "Báo cáo",
+    "slug": "reports",
+    "articles": [
+      {
+        "slug": "1677693459-how-to-read-overview-reports-realtime",
+        "title": "Cách đọc báo cáo tổng quan (thời gian thực)?"
+      },
+      {
+        "slug": "1677693868-how-to-read-csat-reports",
+        "title": "Cách đọc Báo cáo CSAT?"
+      },
+      {
+        "slug": "1724140319-how-to-read-conversations-report",
+        "title": "Cách đọc Báo cáo Cuộc hội thoại?"
+      },
+      {
+        "slug": "1724141456-how-to-read-the-bot-reports",
+        "title": "Cách đọc Báo cáo bot?"
+      },
+      {
+        "slug": "1724145182-how-to-read-sla-reports",
+        "title": "Cách đọc báo cáo SLA?"
+      },
+      {
+        "slug": "1677694691-reading-conversations-agents-labels-inbox-and-team-reports",
+        "title": "Đọc báo cáo Cuộc hội thoại, Nhân viên hỗ trợ, Nhãn, Inbox và Nhóm"
+      },
+      {
+        "slug": "1713170964-how-to-read-the-sla-reports",
+        "title": "Cách đọc báo cáo SLA"
+      }
+    ]
+  },
+  {
+    "emoji": "❓",
+    "name": "Trung tâm trợ giúp",
+    "slug": "help-center",
+    "articles": [
+      {
+        "slug": "1677861202-how-to-setup-a-help-center",
+        "title": "Cách thiết lập Trung tâm trợ giúp?"
+      },
+      {
+        "slug": "1677855950-generate-ssl-certificate",
+        "title": "Cách thiết lập chứng chỉ SSL cho tên miền tùy chỉnh của Trung tâm Trợ giúp?"
+      },
+      {
+        "slug": "1748419710-embedding-videos-in-help-center",
+        "title": "Nhúng video vào Trung tâm trợ giúp"
+      }
+    ]
+  },
+  {
+    "emoji": "💫",
+    "name": "Kinh nghiệm hay",
+    "slug": "best-practices",
+    "articles": [
+      {
+        "slug": "1677696868-assigning-conversations-in-a-round_robin-fashion",
+        "title": "Phân công cuộc hội thoại theo phương thức round-robin."
+      },
+      {
+        "slug": "1677697180-working-with-command-bar",
+        "title": "Làm việc với thanh lệnh"
+      },
+      {
+        "slug": "1677698168-working-with-keyboard-shortcuts",
+        "title": "Làm việc với phím tắt bàn phím"
+      },
+      {
+        "slug": "1677748953-group-your-contacts-using-filters-and-save-them-as-custom-segments",
+        "title": "Nhóm liên hệ của bạn thành các phân khúc tùy chỉnh."
+      },
+      {
+        "slug": "1677698771-group-chats-with-filters-save-as-folders",
+        "title": "Nhóm cuộc hội thoại bằng bộ lọc, lưu thành thư mục"
+      }
+    ]
+  },
+  {
+    "emoji": "🔥",
+    "name": "Trợ lý Square",
+    "slug": "captain",
+    "articles": [
+      {
+        "slug": "1738101283-captain-_-introduction",
+        "title": "Giới thiệu về Trợ lý Square"
+      },
+      {
+        "slug": "1738101547-creating-an-assistant-with-captain",
+        "title": "Tạo trợ lý với Trợ lý Square"
+      },
+      {
+        "slug": "1738104411-creating-a-document-in-captain",
+        "title": "Tạo tài liệu trong Trợ lý Square"
+      },
+      {
+        "slug": "1738101609-creating-an-faq-with-captain",
+        "title": "Tạo FAQ với Trợ lý Square"
+      },
+      {
+        "slug": "1738101691-how-to-use-captain-memories",
+        "title": "Cách sử dụng Trợ lý Square Memories?"
+      },
+      {
+        "slug": "1738110272-how-to-use-captain-copilot",
+        "title": "Cách sử dụng Trợ lý Square Copilot?"
+      },
+      {
+        "slug": "1765223602-how-ai-credits-work-in-captain",
+        "title": "Cách AI Credits hoạt động trong Trợ lý Square?"
+      },
+      {
+        "slug": "1765224466-updating-robots-txt-to-allow-chatwoot-assistant-to-crawl-your-website",
+        "title": "Cập nhật robots.txt để cho phép SquareHub Assistant thu thập dữ liệu từ trang web của bạn"
+      },
+      {
+        "slug": "1775045339-v2-_-how-to-set-up-custom-tools-for-captain",
+        "title": "Cách thiết lập công cụ tùy chỉnh cho Trợ lý Square?"
+      }
+    ]
+  },
+  {
+    "emoji": "🛒",
+    "name": "Bán hàng & Tự động hóa",
+    "slug": "ban-hang-tu-dong-hoa",
+    "articles": [
+      {
+        "slug": "9000002-flow-builder-luong-tu-dong",
+        "title": "Hướng dẫn sử dụng Flow Builder (Luồng tự động)"
+      },
+      {
+        "slug": "9000001-kich-ban-ban-hang-tro-ly-square",
+        "title": "Tạo kịch bản bán hàng với Flow Builder"
+      }
+    ]
+  },
+  {
+    "emoji": "🛳️",
+    "name": "Di chuyển dữ liệu",
+    "slug": "migrations",
+    "articles": [
+      {
+        "slug": "1696162098-how-to-migrate-from-intercom-to-chatwoot",
+        "title": "Cách di chuyển từ Intercom sang SquareHub?"
+      },
+      {
+        "slug": "1696163019-how-to-migrate-from-front-to-chatwoot",
+        "title": "Cách di chuyển từ Front sang SquareHub?"
+      },
+      {
+        "slug": "1696159781-how-to-migrate-from-freshdesk-to-chatwoot",
+        "title": "Cách chuyển dữ liệu từ Freshdesk sang SquareHub?"
+      },
+      {
+        "slug": "1696162432-how-to-migrate-from-zendesk-to-chatwoot",
+        "title": "Cách chuyển đổi từ Zendesk sang SquareHub?"
+      }
+    ]
+  },
+  {
+    "emoji": "📌",
+    "name": "Chủ đề khác",
+    "slug": "other-topics",
+    "articles": [
+      {
+        "slug": "1677778232-which-cookies-are-used-by-chatwoot",
+        "title": "SquareHub sử dụng những cookie nào?"
+      },
+      {
+        "slug": "1677695546-languages-supported-in-chatwoot",
+        "title": "Các ngôn ngữ được hỗ trợ trong SquareHub"
+      },
+      {
+        "slug": "1699010044-what-we-don-t-cover-in",
+        "title": "Những gì không được bao gồm trong Bản dùng thử miễn phí SquareHub"
+      },
+      {
+        "slug": "1731484809-how-to-enable-push-notifications-in-your-browser",
+        "title": "Cách bật thông báo đẩy trên trình duyệt"
+      },
+      {
+        "slug": "1742879613-how-to-hard_reload-on-most-browsers",
+        "title": "Cách thực hiện hard-reload trên các trình duyệt phổ biến"
+      },
+      {
+        "slug": "1758697086-inconsistencies-for-whats_app-numbers-in-brazil-mexico-and-argentina",
+        "title": "Sự không nhất quán của số WhatsApp tại Brazil và Argentina"
+      },
+      {
+        "slug": "1772103052-troubleshooting-why-am-i-not-receiving-notifications",
+        "title": "Khắc phục sự cố: Tại sao tôi không nhận được thông báo?"
+      }
+    ]
+  },
+  {
+    "emoji": "⚙️",
+    "name": "Hướng dẫn",
+    "slug": "how-to",
+    "articles": [
+      {
+        "slug": "1750735898-purchasing-a-paid-self_hosted-chatwoot-license-a-step_by_step-guide",
+        "title": "Hướng dẫn từng bước mua giấy phép SquareHub Self-Hosted trả phí"
+      },
+      {
+        "slug": "1757445004-how-to-find-your-personal-access-token-in-chatwoot",
+        "title": "Cách tìm Personal Access Token của bạn trong SquareHub"
+      },
+      {
+        "slug": "1757446321-how-to-embed-your-help-center-articles-in-the-live-chat-widget",
+        "title": "Cách nhúng bài viết Trung tâm Trợ giúp vào widget live chat"
+      },
+      {
+        "slug": "1757447973-how-to-change-your-email-address-in-chatwoot",
+        "title": "Cách thay đổi địa chỉ email của bạn trong SquareHub"
+      },
+      {
+        "slug": "1757451305-how-to-remove-the-free-usage-limit-exceeded-message-in-chatwoot",
+        "title": "Cách xóa thông báo vượt giới hạn sử dụng miễn phí trong SquareHub"
+      },
+      {
+        "slug": "1775764014-how-to",
+        "title": "Cách phân khúc liên hệ trong SquareHub?"
+      }
+    ]
+  }
+]

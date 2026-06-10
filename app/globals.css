@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Self-hosted Inter (variable) — the portal's `Inter` family supports the
+   custom 420 / 620 weights used throughout the design.
+--------------------------------------------------------------------------- */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/fonts/InterVariable-CWi-zmRD.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/fonts/InterVariable-Italic-d6KXgdvN.woff2") format("woff2");
+}
+
+/* ---------------------------------------------------------------------------
+   Design tokens — Radix slate scale + portal alpha/border tokens.
+   Values lifted verbatim from the original compiled portal stylesheet.
+--------------------------------------------------------------------------- */
+:root,
+html.light {
+  --slate-1: 252 252 253;
+  --slate-2: 249 249 251;
+  --slate-3: 240 240 243;
+  --slate-4: 232 232 236;
+  --slate-5: 224 225 230;
+  --slate-6: 217 217 224;
+  --slate-7: 205 206 214;
+  --slate-8: 185 187 198;
+  --slate-9: 139 141 152;
+  --slate-10: 128 131 141;
+  --slate-11: 96 100 108;
+  --slate-12: 28 32 36;
+  --border-weak: 234 234 234;
+  --alpha-1: 215, 215, 215, 0.22;
+  --alpha-2: 196, 197, 198, 0.22;
+  --alpha-3: 255, 255, 255, 0.96;
+  --black-alpha-1: 0, 0, 0, 0.12;
+  --black-alpha-2: 0, 0, 0, 0.04;
+
+  --dynamic-portal-bg: color-mix(in srgb, #2881f6 20%, white);
+  --dynamic-portal-bg-gradient: linear-gradient(to bottom, transparent, white);
+  --dynamic-hover-bg-color: color-mix(in srgb, #2881f6 5%, #f9f9f9);
+  --dynamic-hover-color: #2881f6;
+  --dynamic-portal-color: #2881f6;
+  --dynamic-portal-color-soft: color-mix(in srgb, #2881f6 12%, transparent);
+  --dynamic-portal-color-faint: color-mix(in srgb, #2881f6 5%, transparent);
+}
+
+html.dark,
+.dark {
+  --slate-1: 17 17 19;
+  --slate-2: 24 25 27;
+  --slate-3: 33 34 37;
+  --slate-4: 39 42 45;
+  --slate-5: 46 49 53;
+  --slate-6: 54 58 63;
+  --slate-7: 67 72 78;
+  --slate-8: 90 97 105;
+  --slate-9: 105 110 119;
+  --slate-10: 119 123 132;
+  --slate-11: 176 180 186;
+  --slate-12: 237 238 240;
+  --border-weak: 31 31 37;
+  --alpha-1: 35, 36, 42, 0.8;
+  --alpha-2: 147, 153, 176, 0.12;
+  --alpha-3: 33, 34, 38, 0.95;
+  --black-alpha-1: 0, 0, 0, 0.3;
+  --black-alpha-2: 0, 0, 0, 0.2;
+
+  --dynamic-portal-bg: color-mix(in srgb, #2881f6 20%, black);
+  --dynamic-portal-bg-gradient: linear-gradient(to bottom, transparent, #151718);
+  --dynamic-hover-bg-color: color-mix(in srgb, #2881f6 5%, #1b1b1b);
+  --dynamic-hover-color: #2881f6;
+  --dynamic-portal-color: #2881f6;
+  --dynamic-portal-color-soft: color-mix(in srgb, #2881f6 18%, transparent);
+  --dynamic-portal-color-faint: color-mix(in srgb, #2881f6 6%, transparent);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Tahoma, Arial, sans-serif;
+}
+
+/* The appearance dropdown shows a check next to the active theme only. */
+.appearance-menu[data-current-theme="system"] .check-mark-icon:is(.light-theme, .dark-theme),
+.appearance-menu[data-current-theme="dark"] .check-mark-icon:is(.light-theme, .system-theme),
+.appearance-menu[data-current-theme="light"] .check-mark-icon:is(.dark-theme, .system-theme) {
+  display: none;
+}
+
+/* Hide the native disclosure marker on <summary> elements used as menus. */
+summary::-webkit-details-marker {
+  display: none;
+}

@@ -1,0 +1,287 @@
+{
+  "heroTopics": [
+    {
+      "slug": "chatwoot-101",
+      "emoji": "🚀",
+      "name": "SquareHub 101"
+    },
+    {
+      "slug": "setup-account",
+      "emoji": "👝",
+      "name": "Thiết lập tài khoản"
+    },
+    {
+      "slug": "website-live-chat",
+      "emoji": "💬",
+      "name": "Live chat trên website"
+    }
+  ],
+  "cards": [
+    {
+      "slug": "chatwoot-101",
+      "emoji": "🚀",
+      "title": "SquareHub 101",
+      "description": "Bắt đầu từ đây để hiểu SquareHub, các khái niệm cốt lõi và cách nền tảng giúp bạn quản lý hội thoại với khách hàng.",
+      "authors": [
+        {
+          "name": "Khoa Tuyên",
+          "avatar": ""
+        },
+        {
+          "name": "Tami",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "setup-account",
+      "emoji": "👝",
+      "title": "Thiết lập tài khoản",
+      "description": "Thiết lập tài khoản, không gian làm việc, nhóm, người dùng và các cấu hình cơ bản trước khi vận hành chính thức.",
+      "authors": [
+        {
+          "name": "Thanh Phong",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "website-live-chat",
+      "emoji": "💬",
+      "title": "Live chat trên website",
+      "description": "Tìm hiểu cách cài đặt, cấu hình và tùy chỉnh tiện ích live chat của SquareHub trên website hoặc ứng dụng của bạn.",
+      "authors": [
+        {
+          "name": "Tami",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "voice-channels",
+      "emoji": "📞",
+      "title": "Kênh thoại",
+      "description": "Tìm hiểu cách kết nối nhà cung cấp dịch vụ thoại, quản lý cuộc gọi đến và cấu hình hỗ trợ qua điện thoại trong SquareHub.",
+      "authors": [
+        {
+          "name": "Thanh Phong",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "other-channels",
+      "emoji": "🪵",
+      "title": "Các kênh khác",
+      "description": "Kết nối và quản lý các kênh như email, WhatsApp, Facebook, Instagram, Telegram và nhiều hơn nữa.",
+      "authors": [
+        {
+          "name": "Tami",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "features-explained",
+      "emoji": "📚",
+      "title": "Giải thích tính năng",
+      "description": "Hiểu các tính năng chính của SquareHub dùng cho quản lý hộp thư, hội thoại, liên hệ, nhóm và quy trình làm việc.",
+      "authors": [
+        {
+          "name": "Khoa Tuyên",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "advanced-features-explained",
+      "emoji": "🔎",
+      "title": "Các tính năng nâng cao",
+      "description": "Khám phá các khả năng nâng cao như tự động hóa, quy tắc phân công, thuộc tính tùy chỉnh, macro, SLA và webhook.",
+      "authors": [
+        {
+          "name": "Tami",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "apps-and-integrations",
+      "emoji": "⚡",
+      "title": "Ứng dụng và Tích hợp",
+      "description": "Kết nối SquareHub với các công cụ và dịch vụ bên ngoài để mở rộng quy trình hỗ trợ của bạn.",
+      "authors": [
+        {
+          "name": "Thanh Phong",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "reports",
+      "emoji": "📊",
+      "title": "Báo cáo",
+      "description": "Dùng báo cáo và phân tích để đo lường hiệu suất đội ngũ, lượng hội thoại, thời gian phản hồi và chất lượng hỗ trợ khách hàng.",
+      "authors": [
+        {
+          "name": "Tami",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "help-center",
+      "emoji": "❓",
+      "title": "Trung tâm trợ giúp",
+      "description": "Tạo, sắp xếp và xuất bản bài viết trên trung tâm trợ giúp để khách hàng tự tìm được câu trả lời.",
+      "authors": [
+        {
+          "name": "Thanh Phong",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "best-practices",
+      "emoji": "💫",
+      "title": "Kinh nghiệm hay",
+      "description": "Những khuyến nghị thực tế giúp đội ngũ của bạn đạt kết quả tốt hơn khi dùng SquareHub.",
+      "authors": [
+        {
+          "name": "Tami",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "captain",
+      "emoji": "🔥",
+      "title": "Trợ lý Square",
+      "description": "Tìm hiểu cách thiết lập và sử dụng Trợ lý Square — trợ lý AI hỗ trợ khách hàng của SquareHub.",
+      "authors": [
+        {
+          "name": "Khoa Tuyên",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "ban-hang-tu-dong-hoa",
+      "emoji": "🛒",
+      "title": "Bán hàng & Tự động hóa",
+      "description": "Xây dựng luồng hội thoại tự động và kịch bản bán hàng cho cửa hàng bằng Flow Builder.",
+      "authors": [
+        {
+          "name": "Khoa Tuyên",
+          "avatar": ""
+        },
+        {
+          "name": "Tami",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "migrations",
+      "emoji": "🛳️",
+      "title": "Di chuyển dữ liệu",
+      "description": "Các hướng dẫn giúp bạn chuyển đổi mượt mà từ những nền tảng khác như Zendesk, Freshdesk, Intercom, v.v. sang SquareHub.",
+      "authors": [
+        {
+          "name": "Khoa Tuyên",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "other-topics",
+      "emoji": "📌",
+      "title": "Chủ đề khác",
+      "description": "Các hướng dẫn và tài liệu tham khảo bổ sung giúp bạn tận dụng tối đa SquareHub.",
+      "authors": [
+        {
+          "name": "Tami",
+          "avatar": ""
+        },
+        {
+          "name": "Thanh Phong",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "slug": "how-to",
+      "emoji": "⚙️",
+      "title": "Hướng dẫn",
+      "description": "Hướng dẫn từng bước cho các tác vụ phổ biến và các tình huống sử dụng cụ thể trong SquareHub.",
+      "authors": [
+        {
+          "name": "Khoa Tuyên",
+          "avatar": ""
+        },
+        {
+          "name": "Thanh Phong",
+          "avatar": ""
+        }
+      ]
+    }
+  ],
+  "popular": [
+    {
+      "slug": "9000001-kich-ban-ban-hang-tro-ly-square",
+      "emoji": "🛒",
+      "categoryName": "Bán hàng & Tự động hóa",
+      "title": "Tạo kịch bản bán hàng với Flow Builder",
+      "excerpt": "Bạn có thể dựng nhanh các kịch bản bán hàng cho cửa hàng bằng Flow Builder (Luồng tự động) mà không cần viết code. SquareHub có sẵn nhóm mẫu Cửa hàng TMĐT giúp tự động hoá các tình huống bán hàng thường gặp: tư vấn sản phẩm, chốt đơn, tra c"
+    },
+    {
+      "slug": "9000002-flow-builder-luong-tu-dong",
+      "emoji": "🛒",
+      "categoryName": "Bán hàng & Tự động hóa",
+      "title": "Hướng dẫn sử dụng Flow Builder (Luồng tự động)",
+      "excerpt": "Flow Builder (Luồng tự động) là công cụ kéo–thả giúp bạn xây dựng kịch bản hội thoại tự động cho SquareHub mà không cần viết code. Bạn ghép các nút (node) thành một luồng: khi có sự kiện xảy ra, hệ thống đi theo luồng để kiểm tra điều kiện "
+    },
+    {
+      "slug": "1677497472-how-to-use-agent-bots",
+      "emoji": "📚",
+      "categoryName": "Giải thích tính năng",
+      "title": "Cách sử dụng Agent bot?",
+      "excerpt": "AgentBot cho phép bạn kết nối các AI agent bên ngoài và logic bot tùy chỉnh trực tiếp vào inbox SquareHub của bạn. Nó cho phép bot của bạn lắng nghe cuộc hội thoại của khách hàng, xử lý các truy vấn đến, và phản hồi qua SquareHub theo thời "
+    },
+    {
+      "slug": "1677832735-how-to-setup-a-whats_app-channel",
+      "emoji": "🪵",
+      "categoryName": "Các kênh khác",
+      "title": "Cách thiết lập kênh WhatsApp?",
+      "excerpt": "Bạn có thể quản lý các cuộc hội thoại Tài khoản WhatsApp Business trực tiếp từ SquareHub. Để kết nối số WhatsApp của bạn, SquareHub hỗ trợ hai phương thức: Đăng ký Nhúng (khuyến nghị) – luồng hướng dẫn được cung cấp bởi Meta, tự động cấu hì"
+    },
+    {
+      "slug": "1677693021-how-to-use-webhooks",
+      "emoji": "⚡",
+      "categoryName": "Ứng dụng và Tích hợp",
+      "title": "Cách sử dụng webhook?",
+      "excerpt": "Webhook là các HTTP callback được thiết lập cho mỗi tài khoản. Chúng được kích hoạt khi các hành động như tạo tin nhắn xảy ra trong SquareHub. Có thể tạo nhiều webhook cho một tài khoản. Cách thêm webhook? Bước 1. Vào Cài đặt → Tích hợp → W"
+    },
+    {
+      "slug": "1677482414-adding-agents",
+      "emoji": "👝",
+      "categoryName": "Thiết lập tài khoản",
+      "title": "Cách mời nhân viên hỗ trợ và quản lý nhóm hỗ trợ của bạn?",
+      "excerpt": "Một nhân viên hỗ trợ là bất kỳ ai trong nhóm của bạn có quyền truy cập vào SquareHub để xử lý các cuộc hội thoại với khách hàng. Mỗi người đăng nhập vào tài khoản SquareHub của bạn đều là một nhân viên hỗ trợ — không có khái niệm \"người dùn"
+    },
+    {
+      "slug": "1677691702-how-to-use-dashboard-apps",
+      "emoji": "⚡",
+      "categoryName": "Ứng dụng và Tích hợp",
+      "title": "Cách sử dụng Dashboard Apps?",
+      "excerpt": "Với Dashboard Apps, bạn có thể tích hợp một ứng dụng vào bảng điều khiển SquareHub để nhân viên hỗ trợ sử dụng. Tính năng này cho phép bạn xây dựng ứng dụng độc lập, sau đó nhúng vào để hiển thị thông tin khách hàng, đơn hàng, lịch sử thanh"
+    },
+    {
+      "slug": "1677839703-how-to-create-an-api-channel-inbox",
+      "emoji": "🪵",
+      "categoryName": "Các kênh khác",
+      "title": "Cách tạo inbox kênh API?",
+      "excerpt": "Để tạo và cấu hình một inbox kênh API trong các cài đặt SquareHub, hãy làm theo các bước được mô tả dưới đây. Thiết lập kênh API Bước 1 . Vào Cài đặt → Inbox → \"Thêm Inbox\". Bước 2. Nhấp vào biểu tượng \"API\". Bước 3. Nhập tên cho kênh và UR"
+    }
+  ]
+}

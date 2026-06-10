@@ -1,0 +1,919 @@
+{
+  "advanced-features-explained": {
+    "slug": "advanced-features-explained",
+    "emoji": "🔎",
+    "title": "Các tính năng nâng cao",
+    "description": "Khám phá các khả năng nâng cao như tự động hóa, quy tắc phân công, thuộc tính tùy chỉnh, macro, SLA và webhook.",
+    "articleCount": 20,
+    "authorsText": "Bởi Tami",
+    "authors": [
+      {
+        "name": "Tami",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677688192-how-to-use-conversation-filters",
+        "title": "Cách sử dụng Bộ lọc Cuộc hội thoại?",
+        "excerpt": "Bạn có thể lọc các cuộc hội thoại theo các tiêu chí khác nhau. Bạn cũng có thể sử dụng toán tử \"AND\" và \"OR\" để tinh chỉnh thêm tìm kiếm của mình. Các bộ lọc có sẵn được liệt kê dưới đây. Trạng thái cuộc hội thoại Nhân viên hỗ trợ được phân"
+      },
+      {
+        "slug": "1677688647-how-to-use-pre_chat-forms",
+        "title": "Cách sử dụng biểu mẫu trước cuộc trò chuyện (pre-chat forms)?",
+        "excerpt": "Biểu mẫu trước cuộc trò chuyện được dùng để thu thập thông tin về một liên hệ/cuộc hội thoại trước khi bắt đầu cuộc trò chuyện. Biểu mẫu trước cuộc trò chuyện chỉ có sẵn trong website live chat. Cách thêm biểu mẫu trước cuộc trò chuyện? Bướ"
+      },
+      {
+        "slug": "1677738682-how-to-use-campaigns",
+        "title": "Cách sử dụng tính năng Campaigns?",
+        "excerpt": "Tính năng Campaigns là cách để bạn gửi tin nhắn chủ động đến khách hàng. Có hai loại campaign trong SquareHub: I. Campaign liên tục (Ongoing campaigns) Bạn có thể sử dụng ongoing campaigns để gửi tin nhắn chủ động thường xuyên qua website l"
+      },
+      {
+        "slug": "1677689344-how-to-use-interactive-messages",
+        "title": "Cách tạo tin nhắn tương tác?",
+        "excerpt": "SquareHub cho phép bạn tạo các loại tin nhắn tương tác như thẻ (card) và biểu mẫu bên trong SquareHub Web Widget thông qua các API. Bạn có thể tạo những tin nhắn này bằng cách sử dụng New Message API . Mẫu Payload ​ Sử dụng các mẫu payload "
+      },
+      {
+        "slug": "1677689800-how-to-use-automation",
+        "title": "Cách sử dụng tính năng Tự động hóa?",
+        "excerpt": "Tính năng tự động hóa của SquareHub giúp tối ưu hóa quy trình làm việc của nhóm bằng cách tự động hóa các tác vụ lặp đi lặp lại và tiết kiệm thời gian. Tính năng này cho phép thực hiện nhiều hành động như gán nhãn, gán nhóm và định tuyến cu"
+      },
+      {
+        "slug": "1677691027-how-to-setup-a-web_socket-connection",
+        "title": "Cách thiết lập kết nối WebSocket?",
+        "excerpt": "WebSocket thiết lập kết nối liên tục giữa client và server, cho phép giao tiếp hai chiều. SquareHub sử dụng kết nối này để cung cấp cập nhật theo thời gian thực về các sự kiện trên nền tảng. Để kết nối với WebSocket của SquareHub, chỉ cần c"
+      },
+      {
+        "slug": "1679579699-template-variables",
+        "title": "Cách sử dụng biến mẫu?",
+        "excerpt": "Với biến mẫu, bạn có thể cá nhân hóa tin nhắn bằng cách chèn nội dung động phù hợp với từng người nhận. Bằng cách thêm các trình giữ chỗ vào tin nhắn, bạn có thể dễ dàng tùy chỉnh thông tin liên lạc với các thông tin như tên khách hàng, số "
+      },
+      {
+        "slug": "1679978392-how-to-use-macros",
+        "title": "Cách sử dụng macro?",
+        "excerpt": "Macro là một tập hợp các hành động đã lưu theo thứ tự tuần tự, như gắn nhãn cuộc hội thoại, gửi bản ghi email, gửi tệp đính kèm, v.v., mà bạn có thể xác định từ bảng điều khiển. Là nhân viên hỗ trợ, bạn sẽ thấy mình cần lặp lại cùng một tập"
+      },
+      {
+        "slug": "1692251809-how-to-use-audit-logs",
+        "title": "Cách sử dụng Nhật ký kiểm tra?",
+        "excerpt": "Nhật ký kiểm tra là tính năng Enterprise. Tính năng này lưu lại bản ghi các hoạt động xảy ra trong tài khoản của bạn, giúp bạn theo dõi để kiểm tra tài khoản, nhóm hoặc dịch vụ. Về cơ bản, nhật ký kiểm tra trả lời bốn câu hỏi W cho bạn: Ai "
+      },
+      {
+        "slug": "1712785075-wildcard-url-support-in-website-live_chat-campaigns",
+        "title": "Hỗ trợ URL wildcard trong campaigns live chat trên website",
+        "excerpt": "Campaigns live chat trên website hỗ trợ các mẫu URL wildcard. Khi xây dựng mẫu URL, hãy lưu ý các hành vi sau đây. Trong SquareHub, mọi mẫu URL phải bắt đầu bằng hoặc . Chạy campaign trên URL chính xác ​ Nếu bạn thêm URL chính xác như , thì"
+      },
+      {
+        "slug": "1713167310-service-level-agreemtns",
+        "title": "Thỏa thuận mức độ dịch vụ (SLA)",
+        "excerpt": "Với tư cách là nhà cung cấp dịch vụ, Thỏa thuận Mức độ Dịch vụ (SLA) của bạn là các thỏa thuận hợp đồng giữa bạn và khách hàng, xác định mức độ dịch vụ bạn cam kết cung cấp. SLA của bạn xác định các chỉ số hiệu suất kỳ vọng, như thời gian p"
+      },
+      {
+        "slug": "1740546374-how-does-sorting-work",
+        "title": "Tính năng sắp xếp hoạt động như thế nào?",
+        "excerpt": "Khi quản lý các cuộc hội thoại trong SquareHub, tính năng sắp xếp giúp ưu tiên và tổ chức tin nhắn một cách hiệu quả. Có bốn tùy chọn sắp xếp: Hoạt động gần nhất, Thời gian tạo, Ưu tiên và Đang chờ phản hồi . Mỗi phương thức sắp xếp phục vụ"
+      },
+      {
+        "slug": "1741998212-agent-capacity",
+        "title": "Thiết lập giới hạn cuộc hội thoại cho từng nhân viên hỗ trợ với Chính sách Năng lực Nhân viên",
+        "excerpt": "Chính sách Năng lực Nhân viên ( Agent Capacity Policy ) là tập hợp các quy tắc giới hạn số cuộc hội thoại đang mở mà một nhân viên hỗ trợ có thể xử lý tại một thời điểm. Đây là cách để ngăn một nhân viên bị quá tải trong khi nhân viên khác "
+      },
+      {
+        "slug": "1745225158-what-is-human-agent-tag-in-instagram-messenger-channel",
+        "title": "Thẻ Human Agent trong kênh Instagram/Messenger là gì",
+        "excerpt": "Tính năng Human Agent cho phép doanh nghiệp phản hồi tin nhắn của người dùng ngoài cửa sổ nhắn tin 24 giờ tiêu chuẩn. Khi một nhân viên hỗ trợ áp dụng thẻ tin nhắn human_agent, họ có thể trả lời tin nhắn của người dùng trong vòng 7 ngày kể "
+      },
+      {
+        "slug": "1754940076-whatsapp-templates",
+        "title": "Mẫu tin nhắn WhatsApp",
+        "excerpt": "Mẫu tin nhắn WhatsApp là các định dạng tin nhắn đã được phê duyệt trước, cho phép bạn chủ động bắt đầu cuộc hội thoại với khách hàng. Chúng rất cần thiết để gửi tin nhắn quảng cáo, cập nhật đơn hàng và thông báo hỗ trợ qua nền tảng WhatsApp"
+      },
+      {
+        "slug": "1756195741-twilio-content-templates",
+        "title": "Mẫu nội dung Twilio",
+        "excerpt": "Mẫu nội dung Twilio cho phép bạn gửi các mẫu tin nhắn WhatsApp đã được phê duyệt trước thông qua các kênh WhatsApp Business Twilio của bạn trong SquareHub. Các mẫu này cho phép bạn khởi tạo cuộc hội thoại và gửi các tin nhắn có cấu trúc tuâ"
+      },
+      {
+        "slug": "1758635327-setting-up-saml",
+        "title": "Thiết lập xác thực SAML",
+        "excerpt": "Đây là hướng dẫn thiết lập xác thực SAML cho tài khoản của bạn, hướng dẫn này giả định rằng bạn đã có IdP (Nhà cung cấp danh tính) dành cho công việc. Trước khi bắt đầu, có một số điểm cần lưu ý Sau khi bật SAML, người dùng của bạn sẽ không"
+      },
+      {
+        "slug": "1768986869-common-whats_app-issues-and-how-to-fix-them",
+        "title": "Các sự cố WhatsApp thường gặp và cách khắc phục",
+        "excerpt": "Không nhận được tin nhắn WhatsApp mặc dù mọi thứ có vẻ đã kết nối Triệu chứng Kênh WhatsApp đã kết nối thành công Trạng thái số điện thoại hiển thị Connected Đánh giá chất lượng là Green Không có lỗi nào hiển thị trong SquareHub Tin nhắn gử"
+      },
+      {
+        "slug": "1769161760-required-conversation-attributes",
+        "title": "Thuộc tính bắt buộc của hội thoại",
+        "excerpt": "Thuộc tính bắt buộc của hội thoại cho phép quản trị viên yêu cầu nhân viên hỗ trợ điền các thuộc tính tùy chỉnh cụ thể trước khi giải quyết một cuộc hội thoại. Điều này đảm bảo nhóm của bạn thu thập dữ liệu có cấu trúc nhất quán — dù là dan"
+      },
+      {
+        "slug": "1763978164-chatwoot-assignment-v2",
+        "title": "Chính sách phân công nâng cao",
+        "excerpt": "Tổng quan Tính năng phân công nâng cao giới thiệu hệ thống phân công cuộc hội thoại dựa trên chính sách toàn diện. Hệ thống này cung cấp quản lý tập trung, các thuật toán tiên tiến và kiểm soát năng lực cấp doanh nghiệp. Tình trạng khả dụng"
+      }
+    ]
+  },
+  "apps-and-integrations": {
+    "slug": "apps-and-integrations",
+    "emoji": "⚡",
+    "title": "Ứng dụng và Tích hợp",
+    "description": "Kết nối SquareHub với các công cụ và dịch vụ bên ngoài để mở rộng quy trình hỗ trợ của bạn.",
+    "articleCount": 8,
+    "authorsText": "Bởi Thanh Phong",
+    "authors": [
+      {
+        "name": "Thanh Phong",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677743452-how-to-integrate-your-dialogflow-chatbot-with-chatwoot",
+        "title": "Cách tích hợp chatbot Dialogflow vào SquareHub?",
+        "excerpt": "Chatbot rất hữu ích cho nhiều nhóm chăm sóc khách hàng. Chúng xử lý hiệu quả các câu hỏi đơn giản và giải phóng nhân viên hỗ trợ để tập trung vào những vấn đề quan trọng hơn. Dialogflow và Rasa.ai là các nền tảng NLP (Xử lý Ngôn ngữ Tự nhiê"
+      },
+      {
+        "slug": "1677693021-how-to-use-webhooks",
+        "title": "Cách sử dụng webhook?",
+        "excerpt": "Webhook là các HTTP callback được thiết lập cho mỗi tài khoản. Chúng được kích hoạt khi các hành động như tạo tin nhắn xảy ra trong SquareHub. Có thể tạo nhiều webhook cho một tài khoản. Cách thêm webhook? Bước 1. Vào Cài đặt → Tích hợp → W"
+      },
+      {
+        "slug": "1677774874-how-to-answer-conversations-from-slack",
+        "title": "Cách trả lời cuộc hội thoại từ Slack?",
+        "excerpt": "Nếu công ty/tài khoản/dự án của bạn sử dụng Slack làm kênh liên lạc, bạn có thể tích hợp Slack với SquareHub để quản lý tất cả các cuộc hội thoại inbox trong không gian làm việc Slack của bạn. Để bắt đầu thiết lập nhanh, hãy làm theo các bư"
+      },
+      {
+        "slug": "1677691702-how-to-use-dashboard-apps",
+        "title": "Cách sử dụng Dashboard Apps?",
+        "excerpt": "Với Dashboard Apps, bạn có thể tích hợp một ứng dụng vào bảng điều khiển SquareHub để nhân viên hỗ trợ sử dụng. Tính năng này cho phép bạn xây dựng ứng dụng độc lập, sau đó nhúng vào để hiển thị thông tin khách hàng, đơn hàng, lịch sử thanh"
+      },
+      {
+        "slug": "1679928145-how-to-enable-video-calls-with-dyte-integration",
+        "title": "Cách bật tính năng gọi video với tích hợp Dyte?",
+        "excerpt": "Gọi video cho khách hàng là cách tuyệt vời để kết nối nhanh chóng, hiểu vấn đề của họ hiệu quả hơn, cung cấp giải pháp nhanh hơn và thu thập thông tin kinh doanh có giá trị. Bạn có thể gọi video cho khách hàng qua website live chat trong Sq"
+      },
+      {
+        "slug": "1679916448-how-to-translate-your-messages-with-google-translate",
+        "title": "Cách dịch tin nhắn bằng Google Translate?",
+        "excerpt": "Nếu bạn thường xuyên nhận được câu hỏi bằng ngôn ngữ mà bạn/các thành viên trong nhóm không hiểu, bạn có thể sử dụng tích hợp Google Translate trong SquareHub. Khi được bật, bạn có thể dịch ngay tin nhắn đến bằng menu chuột phải. Nhờ đó, bạ"
+      },
+      {
+        "slug": "1683707349-openai",
+        "title": "Cách nâng cao cuộc hội thoại với tích hợp OpenAI?",
+        "excerpt": "Tương tác với khách hàng đòi hỏi sự chuyên nghiệp không ngừng nghỉ. Cách bạn giao tiếp với khách hàng thường là yếu tố đóng góp lớn cho doanh số bán hàng cũng như việc giữ chân khách hàng. Chưa kể đến ảnh hưởng đến nhận diện thương hiệu. Nh"
+      },
+      {
+        "slug": "1739949089-how-to-track-issues-and-features-with-linear-integration",
+        "title": "Cách theo dõi Vấn đề và Tính năng với tích hợp Linear?",
+        "excerpt": "Nếu công ty, tài khoản hoặc dự án của bạn sử dụng Linear như một công cụ quản lý dự án, bạn có thể tích hợp nó với SquareHub để quản lý tất cả các cuộc hội thoại trong không gian làm việc Linear của mình. Bạn có thể tạo các vấn đề Linear mớ"
+      }
+    ]
+  },
+  "best-practices": {
+    "slug": "best-practices",
+    "emoji": "💫",
+    "title": "Kinh nghiệm hay",
+    "description": "Những khuyến nghị thực tế giúp đội ngũ của bạn đạt kết quả tốt hơn khi dùng SquareHub.",
+    "articleCount": 5,
+    "authorsText": "Bởi Tami",
+    "authors": [
+      {
+        "name": "Tami",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677696868-assigning-conversations-in-a-round_robin-fashion",
+        "title": "Phân công cuộc hội thoại theo phương thức round-robin.",
+        "excerpt": "SquareHub sử dụng hệ thống tự động phân công round-robin cho các cuộc hội thoại. Điều này có nghĩa là nếu có những người sẵn sàng (được gọi là \"nhân viên hỗ trợ\") có thể trả lời tin nhắn trong một inbox cụ thể, hệ thống sẽ phân chia đều các"
+      },
+      {
+        "slug": "1677697180-working-with-command-bar",
+        "title": "Làm việc với thanh lệnh",
+        "excerpt": "Thanh lệnh là tính năng quan trọng trong SquareHub giúp nâng cao năng suất. Nó cho phép bạn thực hiện nhiều thao tác chỉ với vài lần nhấn phím. Bạn có thể mở thanh lệnh bằng trên macOS hoặc trên Windows và Linux từ bất kỳ đâu trong bảng điề"
+      },
+      {
+        "slug": "1677698168-working-with-keyboard-shortcuts",
+        "title": "Làm việc với phím tắt bàn phím",
+        "excerpt": "Để nâng cao năng suất, bạn có thể sử dụng phím tắt bàn phím. Các phím tắt này cho phép bạn thực hiện các hành động nhanh như mở cuộc hội thoại, giải quyết cuộc hội thoại, bật/tắt thanh bên, vào Cài đặt và nhiều hơn nữa. Để hiển thị danh sác"
+      },
+      {
+        "slug": "1677748953-group-your-contacts-using-filters-and-save-them-as-custom-segments",
+        "title": "Nhóm liên hệ của bạn thành các phân khúc tùy chỉnh.",
+        "excerpt": "Với SquareHub, bạn có thể sắp xếp và lọc các liên hệ theo nhiều tiêu chí khác nhau bằng bộ lọc nâng cao. Bạn có thể lưu các liên hệ đã lọc này thành phân khúc, hiển thị trong thanh bên phụ dưới mục \"Phân khúc\". Tính năng này giúp lưu các nh"
+      },
+      {
+        "slug": "1677698771-group-chats-with-filters-save-as-folders",
+        "title": "Nhóm cuộc hội thoại bằng bộ lọc, lưu thành thư mục",
+        "excerpt": "Bạn có thể sắp xếp và phân loại các cuộc hội thoại bằng bộ lọc nâng cao và lưu chúng thành thư mục. Các thư mục này xuất hiện trên thanh bên để truy cập nhanh vào các cuộc hội thoại cụ thể trong chế độ xem của người dùng. Để sử dụng tính nă"
+      }
+    ]
+  },
+  "captain": {
+    "slug": "captain",
+    "emoji": "🔥",
+    "title": "Trợ lý Square",
+    "description": "Tìm hiểu cách thiết lập và sử dụng Trợ lý Square — trợ lý AI hỗ trợ khách hàng của SquareHub.",
+    "articleCount": 9,
+    "authorsText": "Bởi Khoa Tuyên",
+    "authors": [
+      {
+        "name": "Khoa Tuyên",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1738101283-captain-_-introduction",
+        "title": "Giới thiệu về Trợ lý Square",
+        "excerpt": "Trợ lý Square là AI agent của SquareHub giúp hỗ trợ khách hàng nhanh hơn, thông minh hơn và cá nhân hóa hơn. Trợ lý Square đi kèm với các công cụ mạnh mẽ để hỗ trợ cả khách hàng lẫn nhân viên hỗ trợ, đảm bảo cuộc hội thoại diễn ra suôn sẻ và giải quyết"
+      },
+      {
+        "slug": "1738101547-creating-an-assistant-with-captain",
+        "title": "Tạo trợ lý với Trợ lý Square",
+        "excerpt": "Trợ lý trong Trợ lý Square được xây dựng để giúp trả lời câu hỏi của khách hàng, cung cấp giải pháp và hỗ trợ các vấn đề liên quan đến sản phẩm. Nó học từ các bài viết trung tâm trợ giúp và các cuộc hội thoại trước đây để đưa ra phản hồi chính xá"
+      },
+      {
+        "slug": "1738104411-creating-a-document-in-captain",
+        "title": "Tạo tài liệu trong Trợ lý Square",
+        "excerpt": "Một tài liệu trong Trợ lý Square đóng vai trò là nguồn kiến thức cho trợ lý. Bằng cách liên kết trung tâm trợ giúp hoặc hướng dẫn của bạn, Trợ lý Square có thể phân tích nội dung và hỗ trợ hiệu quả các yêu cầu của khách hàng. Hiện tại, chúng tôi hỗ trợ"
+      },
+      {
+        "slug": "1738101609-creating-an-faq-with-captain",
+        "title": "Tạo FAQ với Trợ lý Square",
+        "excerpt": "FAQ (Câu hỏi thường gặp) là tập hợp các câu hỏi phổ biến và câu trả lời của chúng, được thiết kế để cung cấp hỗ trợ nhanh chóng và dễ dàng cho khách hàng. Trợ lý Square sử dụng các FAQ này để phản hồi các truy vấn của khách hàng một cách hiệu quả"
+      },
+      {
+        "slug": "1738101691-how-to-use-captain-memories",
+        "title": "Cách sử dụng Trợ lý Square Memories?",
+        "excerpt": "Trợ lý Square Memories là các mảnh thông tin được lưu từ cuộc hội thoại với khách hàng để cung cấp ngữ cảnh cho các tương tác trong tương lai. Những bộ nhớ này giúp tạo ra các phản hồi được cá nhân hóa, hiệu quả và nhận thức ngữ cảnh. Ví dụ: nếu "
+      },
+      {
+        "slug": "1738110272-how-to-use-captain-copilot",
+        "title": "Cách sử dụng Trợ lý Square Copilot?",
+        "excerpt": "Trợ lý Square Copilot được thiết kế để giúp nhân viên hỗ trợ làm việc thông minh hơn bằng cách cung cấp các gợi ý hữu ích và thông tin chi tiết ngay từ bảng điều khiển của bạn. Đây là hướng dẫn giúp bạn tận dụng tối đa Trợ lý Square Copilot. Tìm Copilo"
+      },
+      {
+        "slug": "1765223602-how-ai-credits-work-in-captain",
+        "title": "Cách AI Credits hoạt động trong Trợ lý Square?",
+        "excerpt": "Hướng dẫn này giải thích cách AI credits được tiêu thụ, cách credits của bạn được cập nhật khi nạp thêm, khi nào diễn ra việc gia hạn hàng tháng, điều gì xảy ra khi bạn thay đổi gói, và cách thức thông báo khi credits của bạn hết. AI credit"
+      },
+      {
+        "slug": "1765224466-updating-robots-txt-to-allow-chatwoot-assistant-to-crawl-your-website",
+        "title": "Cập nhật robots.txt để cho phép SquareHub Assistant thu thập dữ liệu từ trang web của bạn",
+        "excerpt": "SquareHub sử dụng Firecrawl nội bộ để tải và lập chỉ mục nội dung trang web của bạn. Điều này cho phép SquareHub Assistant trả lời các câu hỏi bằng cách sử dụng thông tin từ trang web của bạn. However, if your website’s robots.txt has Disal"
+      },
+      {
+        "slug": "1775045339-v2-_-how-to-set-up-custom-tools-for-captain",
+        "title": "Cách thiết lập công cụ tùy chỉnh cho Trợ lý Square?",
+        "excerpt": "Công cụ tùy chỉnh cho phép Trợ lý Square gọi các API bên ngoài của bạn trong quá trình hội thoại — để kiểm tra trạng thái bảo hành, xác minh phạm vi dịch vụ, hoặc lấy dữ liệu từ các dịch vụ của bạn mà không cần chuyển tiếp cho nhân viên hỗ trợ. K"
+      }
+    ]
+  },
+  "chatwoot-101": {
+    "slug": "chatwoot-101",
+    "emoji": "🚀",
+    "title": "SquareHub 101",
+    "description": "Bắt đầu từ đây để hiểu SquareHub, các khái niệm cốt lõi và cách nền tảng giúp bạn quản lý hội thoại với khách hàng.",
+    "articleCount": 9,
+    "authorsText": "Bởi Khoa Tuyên và Tami",
+    "authors": [
+      {
+        "name": "Khoa Tuyên",
+        "avatar": ""
+      },
+      {
+        "name": "Tami",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677141565-chatwoot-glossary",
+        "title": "Bảng thuật ngữ SquareHub",
+        "excerpt": "Tài liệu tham khảo các thuật ngữ, tính năng và khái niệm phổ biến được sử dụng trong SquareHub. A Access Token Các API của ứng dụng được thiết kế để tương tác với tài khoản SquareHub từ góc độ người dùng. Vì vậy, để tích hợp ứng dụng và xác"
+      },
+      {
+        "slug": "1673260810-getting-started-chatwoot-101",
+        "title": "Bắt đầu với SquareHub",
+        "excerpt": "Chào mừng bạn đến với SquareHub. Hướng dẫn này sẽ giúp bạn thiết lập tài khoản và hiểu những kiến thức cơ bản cần thiết để bắt đầu hỗ trợ khách hàng. Hướng dẫn được thiết kế cho người dùng lần đầu, vì vậy bạn có thể làm theo mà không cần ki"
+      },
+      {
+        "slug": "1677229173-lesson-1-your-first-chatwoot-conversation",
+        "title": "Bài học 1: Cuộc hội thoại đầu tiên của bạn trên SquareHub",
+        "excerpt": "Chào mừng bạn đến với SquareHub! Đây là điểm dừng đầu tiên trong một chuỗi bài thực hành đưa bạn từ một tài khoản mới toanh đến một bộ phận hỗ trợ hoạt động đầy đủ. Khi kết thúc bài học này, bạn sẽ có một website inbox hoạt động và đã trả l"
+      },
+      {
+        "slug": "1677231493-lesson-2-dashboard-basics",
+        "title": "Bài 2: Những kiến thức cơ bản về bảng điều khiển",
+        "excerpt": "Trong Bài 1, bạn đã gửi phản hồi đầu tiên. Như vậy là đủ để hỗ trợ một khách hàng. Để hỗ trợ năm mươi người mà không bị rối loạn, bạn cần nắm vững cách điều hướng bảng điều khiển. Bài học này chính là bản đồ đó. Bạn sẽ học được gì Bốn khu v"
+      },
+      {
+        "slug": "1677235281-lesson-3-a-mastering-core-features",
+        "title": "Bài 3 (a): Thành thạo các tính năng cốt lõi",
+        "excerpt": "Bây giờ bạn đã có thể tìm kiếm các cuộc hội thoại và trả lời chúng. Bài học này nói về những công cụ biến mười phút gõ phím thành một hành động ba mươi giây — những tính năng mà các nhân viên hỗ trợ giỏi sử dụng trong từng cuộc hội thoại mà"
+      },
+      {
+        "slug": "1677237449-lesson-3-b-mastering-core-features",
+        "title": "Bài học 3 (b): Làm việc với Bối cảnh Khách hàng",
+        "excerpt": "Bài học 3(a) nói về những gì bạn làm bên trong một cuộc hội thoại. Bài học này nói về những gì bạn biết về người ở đầu kia và cách sử dụng kiến thức đó để cung cấp dịch vụ hỗ trợ tốt hơn, nhanh hơn và cá nhân hóa hơn. Thay đổi tư duy: hãy n"
+      },
+      {
+        "slug": "1677238266-lesson-4-complete-your-customer-engagement-suite",
+        "title": "Bài 4: Tự động hóa và Định tuyến",
+        "excerpt": "Cho đến nay, mọi hành động bạn thực hiện trong SquareHub đều là thủ công — bạn nhấp chuột, bạn gõ chữ, bạn gán hội thoại. Cách đó phù hợp với 10 cuộc hội thoại mỗi ngày, nhưng sẽ sụp đổ khi lên đến hàng trăm. Bài học này nói về những hệ thố"
+      },
+      {
+        "slug": "1777328078-lesson-5-ai-actions",
+        "title": "Bài 5: Hành động AI",
+        "excerpt": "Bài 4 nói về quy tắc — tự động hóa theo kiểu nếu-thế-này-thì-thế-kia, hoạt động mà không cần phán đoán. Bài học này nói về AI — lớp đưa khả năng phán đoán, ngôn ngữ và suy luận vào hệ thống hỗ trợ của bạn. Trợ lý Square, nhân viên AI trong Square"
+      },
+      {
+        "slug": "1777328138-lesson-6-reports-and-metrics",
+        "title": "Bài 6: Báo cáo và Chỉ số",
+        "excerpt": "Bạn đã có thể vận hành hàng đợi (Bài 1–3), đã tự động hóa công việc thường ngày ( Bài 4 ), và đã đưa AI vào làm việc thay mình ( Bài 5 ). Bài học này nói về nửa còn lại của việc vận hành bộ phận hỗ trợ: biết điều gì đang hoạt động tốt. Báo "
+      }
+    ]
+  },
+  "features-explained": {
+    "slug": "features-explained",
+    "emoji": "📚",
+    "title": "Giải thích tính năng",
+    "description": "Hiểu các tính năng chính của SquareHub dùng cho quản lý hộp thư, hội thoại, liên hệ, nhóm và quy trình làm việc.",
+    "articleCount": 13,
+    "authorsText": "Bởi Khoa Tuyên",
+    "authors": [
+      {
+        "name": "Khoa Tuyên",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677496066-how-to-add-labels",
+        "title": "Cách thêm nhãn?",
+        "excerpt": "Nhãn trong SquareHub có thể giúp bạn dễ dàng phân loại và ưu tiên các cuộc hội thoại, giúp quản lý quy trình làm việc hiệu quả hơn. Bằng cách gán nhãn cho một cuộc hội thoại từ bảng bên của chat, bạn có thể nhanh chóng xác định chủ đề hoặc "
+      },
+      {
+        "slug": "1677497472-how-to-use-agent-bots",
+        "title": "Cách sử dụng Agent bot?",
+        "excerpt": "AgentBot cho phép bạn kết nối các AI agent bên ngoài và logic bot tùy chỉnh trực tiếp vào inbox SquareHub của bạn. Nó cho phép bot của bạn lắng nghe cuộc hội thoại của khách hàng, xử lý các truy vấn đến, và phản hồi qua SquareHub theo thời "
+      },
+      {
+        "slug": "1677498364-understanding-contacts",
+        "title": "Tìm hiểu về Danh bạ liên hệ",
+        "excerpt": "Phần \"Liên hệ\" trong SquareHub đóng vai trò là cơ sở dữ liệu về người dùng cuối hoặc khách hàng mà bạn đã tương tác thông qua widget SquareHub. Bạn cũng có thể tải lên danh bạ theo cách thủ công. Để xem màn hình Liên hệ, nhấp vào tab \"Liên "
+      },
+      {
+        "slug": "1677501325-how-to-create-saved-reply-templates-with-canned-responses",
+        "title": "Cách tạo mẫu trả lời nhanh với Canned Responses?",
+        "excerpt": "Mẫu trả lời nhanh (canned responses) cho phép bạn lưu các tin nhắn gửi thường xuyên dưới dạng mẫu. Bất cứ khi nào cần dùng mẫu trả lời trong cuộc hội thoại, bạn có thể truy cập canned responses bằng cách gõ theo sau là shortcode. Bạn có thể"
+      },
+      {
+        "slug": "1677502327-how-to-create-and-use-custom-attributes",
+        "title": "Cách tạo và sử dụng thuộc tính tùy chỉnh?",
+        "excerpt": "SquareHub cho phép bạn theo dõi thông tin bổ sung về các cuộc hội thoại và liên hệ, ngoài các thuộc tính dữ liệu tiêu chuẩn như tên, email và vị trí. Những thông tin bổ sung này được gọi là thuộc tính tùy chỉnh và có thể là bất cứ điều gì b"
+      },
+      {
+        "slug": "1677503828-how-to-enable-csat-surveys",
+        "title": "Cách kích hoạt khảo sát CSAT?",
+        "excerpt": "Điểm CSAT (mức độ hài lòng của khách hàng) thường đại diện cho mức độ hài lòng của khách hàng với sản phẩm/dịch vụ hoặc một trải nghiệm cụ thể của bạn. Nó cho phép khách hàng của bạn đánh giá mức độ hài lòng với dịch vụ khách hàng của bạn t"
+      },
+      {
+        "slug": "1682679737-how-to-assign-a-priority",
+        "title": "Cách gán mức độ ưu tiên",
+        "excerpt": "Ưu tiên hóa các cuộc hội thoại là điều thiết yếu để quản lý khối lượng công việc hiệu quả, đảm bảo bạn xử lý các vấn đề khẩn cấp kịp thời trong khi vẫn giải quyết hiệu quả các vấn đề ít quan trọng hơn. Tính năng ưu tiên của SquareHub cho ph"
+      },
+      {
+        "slug": "1695209306-how-to-use-the-omnichannel-message-signature",
+        "title": "Cách sử dụng chữ ký tin nhắn đa kênh?",
+        "excerpt": "Chữ ký tin nhắn cá nhân là một phần kết toàn diện mà bạn có thể thêm vào cuối hoặc phần footer của tin nhắn. Trong SquareHub, bạn có thể sử dụng chữ ký tin nhắn trên tất cả các inbox, không chỉ giới hạn ở email. Để tạo và sử dụng chữ ký của"
+      },
+      {
+        "slug": "1732243644-preventing-agent-collision",
+        "title": "Ngăn chặn xung đột giữa các nhân viên hỗ trợ",
+        "excerpt": "Hướng dẫn này cung cấp tổng quan chi tiết về cách ngăn chặn xung đột giữa các nhân viên hỗ trợ trong SquareHub. Xung đột nhân viên hỗ trợ là gì? Xung đột nhân viên hỗ trợ xảy ra khi có nhiều hơn một nhân viên hỗ trợ cùng cố gắng trả lời cùn"
+      },
+      {
+        "slug": "1741923706-manage-team-access-control-with-flexible-role_based-permissions",
+        "title": "Quản lý kiểm soát truy cập nhóm với phân quyền dựa trên vai trò linh hoạt",
+        "excerpt": "Vai trò tùy chỉnh là các bộ quyền có thể tái sử dụng mà bạn có thể gán cho các thành viên trong không gian làm việc SquareHub của mình. Điều này giúp dễ dàng cập nhật quyền cho nhiều thành viên nhóm cùng một lúc. Tạo vai trò tùy chỉnh mới Đ"
+      },
+      {
+        "slug": "1768303449-whats_app-csat-surveys-in-chatwoot",
+        "title": "Khảo sát CSAT trên WhatsApp bằng Template",
+        "excerpt": "Khảo sát mức độ hài lòng của khách hàng (CSAT) giúp bạn hiểu khách hàng hài lòng như thế nào với dịch vụ hỗ trợ họ nhận được trên WhatsApp. SquareHub hiện hỗ trợ khảo sát CSAT qua template tin nhắn WhatsApp , nhờ đó khảo sát có thể được gửi"
+      },
+      {
+        "slug": "1768536939-review-notes-for-csat",
+        "title": "Ghi chú đánh giá cho CSAT",
+        "excerpt": "Ghi chú đánh giá giúp các nhóm thêm bối cảnh nội bộ vào phản hồi CSAT để các điểm số được diễn giải chính xác. Chúng được thiết kế cho quản lý và trưởng nhóm, những người thường xuyên xem xét dữ liệu CSAT và cần nhiều hơn chỉ một điểm đánh "
+      },
+      {
+        "slug": "1777421876-business-hours-and-auto_responder",
+        "title": "Giờ làm việc và tự động trả lời ngoài giờ",
+        "excerpt": "Giờ làm việc xác định thời gian nhóm của bạn hoạt động. Tính năng này phục vụ ba mục đích: Tin nhắn ngoài giờ — khách hàng nhắn tin ngoài giờ làm việc sẽ nhận được một tin nhắn tùy chỉnh thay vì không có phản hồi Hành vi bộ đếm SLA — khi SL"
+      }
+    ]
+  },
+  "help-center": {
+    "slug": "help-center",
+    "emoji": "❓",
+    "title": "Trung tâm trợ giúp",
+    "description": "Tạo, sắp xếp và xuất bản bài viết trên trung tâm trợ giúp để khách hàng tự tìm được câu trả lời.",
+    "articleCount": 3,
+    "authorsText": "Bởi Thanh Phong",
+    "authors": [
+      {
+        "name": "Thanh Phong",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677861202-how-to-setup-a-help-center",
+        "title": "Cách thiết lập Trung tâm trợ giúp?",
+        "excerpt": "Bạn có thể dễ dàng tạo một cổng tự phục vụ để khách hàng truy cập các bài viết và thông tin. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước để thiết lập Trung tâm trợ giúp, bao gồm tạo cổng thông tin và thêm bài viết. Bạn có thể "
+      },
+      {
+        "slug": "1677855950-generate-ssl-certificate",
+        "title": "Cách thiết lập chứng chỉ SSL cho tên miền tùy chỉnh của Trung tâm Trợ giúp?",
+        "excerpt": "Sử dụng tên miền riêng, chẳng hạn như docs.your-company.com, giúp trung tâm trợ giúp của bạn trông đáng tin cậy hơn và phù hợp với thương hiệu. SquareHub cho phép bạn sử dụng tên miền tùy chỉnh và sẽ giúp bạn bảo mật trang web với chứng chỉ"
+      },
+      {
+        "slug": "1748419710-embedding-videos-in-help-center",
+        "title": "Nhúng video vào Trung tâm trợ giúp",
+        "excerpt": "Trung tâm trợ giúp của SquareHub hỗ trợ nhúng video tự động từ nhiều nền tảng. Khi bạn dán các URL video được hỗ trợ trên các dòng riêng biệt (được bao quanh bởi các dòng trống), chúng sẽ tự động được chuyển đổi thành trình phát video nhúng"
+      }
+    ]
+  },
+  "how-to": {
+    "slug": "how-to",
+    "emoji": "⚙️",
+    "title": "Hướng dẫn",
+    "description": "Hướng dẫn từng bước cho các tác vụ phổ biến và các tình huống sử dụng cụ thể trong SquareHub.",
+    "articleCount": 6,
+    "authorsText": "Bởi Khoa Tuyên và Thanh Phong",
+    "authors": [
+      {
+        "name": "Khoa Tuyên",
+        "avatar": ""
+      },
+      {
+        "name": "Thanh Phong",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1750735898-purchasing-a-paid-self_hosted-chatwoot-license-a-step_by_step-guide",
+        "title": "Hướng dẫn từng bước mua giấy phép SquareHub Self-Hosted trả phí",
+        "excerpt": "Tổng quan về các sản phẩm SquareHub SquareHub cung cấp hai tùy chọn sản phẩm phù hợp với nhu cầu của bạn: SquareHub Cloud Version (Phiên bản đám mây) : Chúng tôi quản lý toàn bộ hạ tầng và bảo trì để bạn tập trung vào hoạt động kinh doanh. "
+      },
+      {
+        "slug": "1757445004-how-to-find-your-personal-access-token-in-chatwoot",
+        "title": "Cách tìm Personal Access Token của bạn trong SquareHub",
+        "excerpt": "SquareHub cung cấp bộ API miễn phí, công khai toàn diện cho tất cả người dùng. Bạn có thể khám phá tài liệu API đầy đủ của chúng tôi tại đây . Để thực hiện các lệnh gọi API đến tài khoản SquareHub của bạn, bạn cần Personal Access Token để x"
+      },
+      {
+        "slug": "1757446321-how-to-embed-your-help-center-articles-in-the-live-chat-widget",
+        "title": "Cách nhúng bài viết Trung tâm Trợ giúp vào widget live chat",
+        "excerpt": "Bạn muốn tích hợp các bài viết từ trung tâm trợ giúp trực tiếp vào widget live chat? Tính năng mạnh mẽ này cho phép khách hàng truy cập nội dung hỗ trợ mà không cần rời khỏi giao diện chat, tạo ra trải nghiệm hỗ trợ liền mạch. SquareHub cun"
+      },
+      {
+        "slug": "1757447973-how-to-change-your-email-address-in-chatwoot",
+        "title": "Cách thay đổi địa chỉ email của bạn trong SquareHub",
+        "excerpt": "SquareHub cho phép bạn cập nhật địa chỉ email được liên kết với tài khoản của bạn bất kỳ lúc nào. Điều này bao gồm việc thay đổi địa chỉ email gốc bạn đã sử dụng khi tạo tài khoản SquareHub. Làm theo hướng dẫn từng bước này để cập nhật địa "
+      },
+      {
+        "slug": "1757451305-how-to-remove-the-free-usage-limit-exceeded-message-in-chatwoot",
+        "title": "Cách xóa thông báo vượt giới hạn sử dụng miễn phí trong SquareHub",
+        "excerpt": "SquareHub cung cấp Gói Hacker (bậc miễn phí) hào phóng cho tất cả người dùng. Tuy nhiên, gói miễn phí này có những giới hạn cụ thể để đảm bảo sử dụng công bằng cho tất cả tài khoản. Giới hạn của Gói Miễn phí Gói Hacker bao gồm các hạn chế s"
+      },
+      {
+        "slug": "1775764014-how-to",
+        "title": "Cách phân khúc liên hệ trong SquareHub?",
+        "excerpt": "Phân khúc liên hệ cho phép bạn phân loại và lọc đối tượng để tương tác hiệu quả hơn. Trong SquareHub, phân khúc được thực hiện bằng cách dùng Nhãn để nhóm liên hệ, sau đó lưu các chế độ xem đã lọc đó dưới dạng Phân khúc . Yêu cầu trước khi "
+      }
+    ]
+  },
+  "migrations": {
+    "slug": "migrations",
+    "emoji": "🛳️",
+    "title": "Di chuyển dữ liệu",
+    "description": "Các hướng dẫn giúp bạn chuyển đổi mượt mà từ những nền tảng khác như Zendesk, Freshdesk, Intercom, v.v. sang SquareHub.",
+    "articleCount": 4,
+    "authorsText": "Bởi Khoa Tuyên",
+    "authors": [
+      {
+        "name": "Khoa Tuyên",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1696162098-how-to-migrate-from-intercom-to-chatwoot",
+        "title": "Cách di chuyển từ Intercom sang SquareHub?",
+        "excerpt": "Nếu bạn đang sử dụng Intercom và muốn chuyển sang SquareHub, hướng dẫn này sẽ dẫn bạn qua quy trình từng bước để di chuyển các cuộc hội thoại, liên hệ, widget live chat và thiết lập SquareHub. Đây là một quy trình rất nhanh; hãy bắt đầu nga"
+      },
+      {
+        "slug": "1696163019-how-to-migrate-from-front-to-chatwoot",
+        "title": "Cách di chuyển từ Front sang SquareHub?",
+        "excerpt": "Nếu bạn đang dùng Front và muốn chuyển sang SquareHub, hướng dẫn này sẽ đưa bạn qua từng bước di chuyển cuộc hội thoại, liên hệ, widget live chat và thiết lập SquareHub. Đây là một quá trình rất nhanh; hãy bắt đầu thôi. Trước khi bắt đầu Tr"
+      },
+      {
+        "slug": "1696159781-how-to-migrate-from-freshdesk-to-chatwoot",
+        "title": "Cách chuyển dữ liệu từ Freshdesk sang SquareHub?",
+        "excerpt": "Nếu bạn đang sử dụng Freshdesk và muốn chuyển sang SquareHub, hướng dẫn này sẽ đưa bạn qua từng bước của quá trình di chuyển cuộc hội thoại, liên hệ, widget live chat và thiết lập SquareHub. Đây là một quá trình rất nhanh; hãy bắt đầu thôi."
+      },
+      {
+        "slug": "1696162432-how-to-migrate-from-zendesk-to-chatwoot",
+        "title": "Cách chuyển đổi từ Zendesk sang SquareHub?",
+        "excerpt": "Nếu bạn đang sử dụng Zendesk và muốn chuyển sang SquareHub, hướng dẫn này sẽ đưa bạn qua từng bước trong quá trình di chuyển các cuộc hội thoại, liên hệ, widget live chat và thiết lập SquareHub. Đây là một quá trình rất nhanh; hãy bắt đầu t"
+      }
+    ]
+  },
+  "other-channels": {
+    "slug": "other-channels",
+    "emoji": "🪵",
+    "title": "Các kênh khác",
+    "description": "Kết nối và quản lý các kênh như email, WhatsApp, Facebook, Instagram, Telegram và nhiều hơn nữa.",
+    "articleCount": 13,
+    "authorsText": "Bởi Tami",
+    "authors": [
+      {
+        "name": "Tami",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677778588-how-to-setup-a-facebook-channel",
+        "title": "Cách thiết lập kênh Facebook?",
+        "excerpt": "Nếu bạn đang sử dụng bản cài đặt SquareHub tự lưu trữ, vui lòng thiết lập ứng dụng Facebook của bạn theo hướng dẫn trong hướng dẫn này . Đối với phiên bản đám mây của SquareHub, vui lòng thực hiện theo các bước dưới đây. Bước 1 . Vào Settin"
+      },
+      {
+        "slug": "1677831888-how-to-setup-a-twitter-channel",
+        "title": "Cách thiết lập kênh Twitter?",
+        "excerpt": "LƯU Ý: Tích hợp Twitter đã tạm thời bị ngừng do những thay đổi mà Twitter thực hiện đối với API của mình. Điều này bao gồm giới hạn về số lượng yêu cầu mỗi phút, cộng với những thay đổi đáng kể về giá. Với một inbox Twitter, bạn có thể quản"
+      },
+      {
+        "slug": "1677832735-how-to-setup-a-whats_app-channel",
+        "title": "Cách thiết lập kênh WhatsApp?",
+        "excerpt": "Bạn có thể quản lý các cuộc hội thoại Tài khoản WhatsApp Business trực tiếp từ SquareHub. Để kết nối số WhatsApp của bạn, SquareHub hỗ trợ hai phương thức: Đăng ký Nhúng (khuyến nghị) – luồng hướng dẫn được cung cấp bởi Meta, tự động cấu hì"
+      },
+      {
+        "slug": "1677846958-how-to-setup-an-sms-channel",
+        "title": "Cách thiết lập kênh SMS?",
+        "excerpt": "Bạn có thể thiết lập inbox kênh SMS thông qua hai nhà cung cấp: Twilio Bandwidth Tạo inbox SMS Thực hiện theo các bước dưới đây. Bước 1 . Mở bảng điều khiển SquareHub của bạn. Vào Settings → Inboxes → Add Inbox. Bước 2 . Nhấn vào biểu tượng"
+      },
+      {
+        "slug": "1677843043-how-to-setup-an-email-channel",
+        "title": "Cách thiết lập kênh Email?",
+        "excerpt": "Để quản lý email hỗ trợ khách hàng/ticketing từ SquareHub, bạn có thể tạo một Email inbox trong SquareHub. Đây là hướng dẫn đầy đủ để thiết lập và vận hành kênh Email của bạn. Tài liệu này được chia thành ba phần: Tạo Email inbox Cài đặt dà"
+      },
+      {
+        "slug": "1677838569-how-to-setup-a-telegram-channel",
+        "title": "Cách thiết lập kênh Telegram?",
+        "excerpt": "Bước 1 . Vào Cài đặt → Inboxes → \"Thêm Inbox\". Bước 2. Nhấp vào biểu tượng \"Telegram\". Bước 3. Tạo một Telegram bot mới bằng Telegram BotFather . Bước 4 . Nhập API token của Telegram bot và nhấp \"Create Telegram Channel\". Bước 5 . \"Thêm nhâ"
+      },
+      {
+        "slug": "1677838977-how-to-setup-a-line-channel",
+        "title": "Cách thiết lập kênh Line?",
+        "excerpt": "Bước 1 . Vào Cài đặt → Inboxes → “Add Inbox”. Bước 2. Nhấp vào biểu tượng “Line”. Bước 3. Vào Line Developer Console và tạo tài khoản Line. Bước 4 . Tạo “Provider” trong developer console. Tạo kênh “Messaging API” mới (Bot) trong provider. "
+      },
+      {
+        "slug": "1677839703-how-to-create-an-api-channel-inbox",
+        "title": "Cách tạo inbox kênh API?",
+        "excerpt": "Để tạo và cấu hình một inbox kênh API trong các cài đặt SquareHub, hãy làm theo các bước được mô tả dưới đây. Thiết lập kênh API Bước 1 . Vào Cài đặt → Inbox → \"Thêm Inbox\". Bước 2. Nhấp vào biểu tượng \"API\". Bước 3. Nhập tên cho kênh và UR"
+      },
+      {
+        "slug": "1742910590-how-to-set-up-a-whats_app-channel-with-twilio",
+        "title": "Cách thiết lập kênh WhatsApp với Twilio?",
+        "excerpt": "Quản lý cuộc hội thoại tài khoản WhatsApp Business của bạn thông qua SquareHub. Bạn có hai tùy chọn nhà cung cấp: WhatsApp Cloud API (cách được khuyến nghị) Twilio Hướng dẫn này sẽ đưa bạn qua từng bước thiết lập. Điều kiện tiên quyết Một s"
+      },
+      {
+        "slug": "1744361165-how-to-setup-an-instagram-channel-via-instagram-login",
+        "title": "Cách thiết lập kênh Instagram?",
+        "excerpt": "Nếu bạn đang sử dụng cài đặt SquareHub tự lưu trữ, vui lòng thiết lập ứng dụng Instagram của bạn theo hướng dẫn này . Đối với phiên bản cloud của SquareHub, vui lòng làm theo hướng dẫn này. Yêu cầu trước khi bắt đầu Trước khi kết nối inbox "
+      },
+      {
+        "slug": "1752129193-how-to-use-whatsapp-embedded-signup",
+        "title": "Cách thiết lập kênh WhatsApp (Đăng ký nhúng)",
+        "excerpt": "WhatsApp Embedded Signup là gì? Embedded Signup là giao diện trên trình duyệt do Meta cung cấp, cho phép xác thực người dùng Facebook, tạo (hoặc liên kết) Tài khoản WhatsApp Business (WABA), thêm số điện thoại và trả về thông tin xác thực s"
+      },
+      {
+        "slug": "1756799850-how-to-setup-a-whats_app-channel-manual-flow",
+        "title": "Cách thiết lập kênh WhatsApp (Quy trình thủ công)?",
+        "excerpt": "Bạn có thể quản lý các cuộc hội thoại tài khoản WhatsApp Business của mình từ SquareHub. Để thiết lập, bạn có hai tùy chọn để chọn nhà cung cấp: WhatsApp Cloud API Twilio Chúng tôi sẽ giải thích tất cả các quy trình trong hướng dẫn này. Điề"
+      },
+      {
+        "slug": "1769595702-how-to-setup-a-tik_tok-channel",
+        "title": "Cách thiết lập kênh TikTok?",
+        "excerpt": "Nếu bạn đang sử dụng bản cài đặt SquareHub tự lưu trữ, vui lòng thiết lập ứng dụng TikTok của bạn theo hướng dẫn trong hướng dẫn này. Đối với phiên bản đám mây của SquareHub, vui lòng làm theo hướng dẫn này. Điều kiện tiên quyết Trước khi t"
+      }
+    ]
+  },
+  "other-topics": {
+    "slug": "other-topics",
+    "emoji": "📌",
+    "title": "Chủ đề khác",
+    "description": "Các hướng dẫn và tài liệu tham khảo bổ sung giúp bạn tận dụng tối đa SquareHub.",
+    "articleCount": 7,
+    "authorsText": "Bởi Tami và Thanh Phong",
+    "authors": [
+      {
+        "name": "Tami",
+        "avatar": ""
+      },
+      {
+        "name": "Thanh Phong",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677778232-which-cookies-are-used-by-chatwoot",
+        "title": "SquareHub sử dụng những cookie nào?",
+        "excerpt": "SquareHub sử dụng các cookie sau. Widget Chat ​ : Cookie này cho phép SquareHub duy trì cuộc hội thoại khi liên hệ điều hướng qua các trang web hoặc truy cập lại website sau đó. : Cookie này được dùng để lưu tạm thông tin liên hệ nếu liên h"
+      },
+      {
+        "slug": "1677695546-languages-supported-in-chatwoot",
+        "title": "Các ngôn ngữ được hỗ trợ trong SquareHub",
+        "excerpt": "SquareHub hỗ trợ tự nhiên hơn 30 ngôn ngữ khác nhau. Hướng dẫn này sẽ minh họa cách bật một ngôn ngữ cụ thể để sử dụng với bảng điều khiển và live chat widget của bạn. Các ngôn ngữ được hỗ trợ Dưới đây là các ngôn ngữ được hỗ trợ trong Squa"
+      },
+      {
+        "slug": "1699010044-what-we-don-t-cover-in",
+        "title": "Những gì không được bao gồm trong Bản dùng thử miễn phí SquareHub",
+        "excerpt": "Bản dùng thử miễn phí 15 ngày của SquareHub được thiết kế để mang đến cho bạn trải nghiệm sản phẩm và cơ hội đánh giá tính phù hợp với nhu cầu tương tác khách hàng của bạn. Chúng tôi đã bật hầu hết các tính năng trong thời gian dùng thử này"
+      },
+      {
+        "slug": "1731484809-how-to-enable-push-notifications-in-your-browser",
+        "title": "Cách bật thông báo đẩy trên trình duyệt",
+        "excerpt": "Google Chrome: Nhấp vào menu ba chấm ở góc trên bên phải và chọn Cài đặt . Điều hướng đến Quyền riêng tư và bảo mật > Cài đặt trang web > Thông báo . Để đảm bảo thông báo có thể được bật, kiểm tra Các trang web có thể yêu cầu gửi thông báo "
+      },
+      {
+        "slug": "1742879613-how-to-hard_reload-on-most-browsers",
+        "title": "Cách thực hiện hard-reload trên các trình duyệt phổ biến",
+        "excerpt": "Hard reload buộc trình duyệt của bạn bỏ qua bộ nhớ đệm và tải phiên bản mới nhất của trang web từ máy chủ. Điều này hữu ích khi bạn gặp sự cố do các file đã lưu trong bộ nhớ đệm bị lỗi thời. Đây là cách thực hiện trên các trình duyệt khác n"
+      },
+      {
+        "slug": "1758697086-inconsistencies-for-whats_app-numbers-in-brazil-mexico-and-argentina",
+        "title": "Sự không nhất quán của số WhatsApp tại Brazil và Argentina",
+        "excerpt": "Trong vài năm qua, một số quốc gia đã thay đổi hệ thống đánh số di động để đáp ứng sự tăng trưởng. Những thay đổi này tạo ra sự không nhất quán giữa số bạn có thể gọi ngày nay và số WhatsApp đã lưu trữ cho các tài khoản cũ hơn. Brazil: Một "
+      },
+      {
+        "slug": "1772103052-troubleshooting-why-am-i-not-receiving-notifications",
+        "title": "Khắc phục sự cố: Tại sao tôi không nhận được thông báo?",
+        "excerpt": "Nếu bạn không nhận được thông báo, hãy làm theo các bước sau lần lượt. 1. Đảm bảo thông báo đã được bật cho tài khoản của bạn Vào Cài đặt hồ sơ → Thông báo và bật các loại bạn muốn cho Email và/hoặc Push . Nếu một loại bị tắt, SquareHub sẽ "
+      }
+    ]
+  },
+  "reports": {
+    "slug": "reports",
+    "emoji": "📊",
+    "title": "Báo cáo",
+    "description": "Dùng báo cáo và phân tích để đo lường hiệu suất đội ngũ, lượng hội thoại, thời gian phản hồi và chất lượng hỗ trợ khách hàng.",
+    "articleCount": 7,
+    "authorsText": "Bởi Tami",
+    "authors": [
+      {
+        "name": "Tami",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677693459-how-to-read-overview-reports-realtime",
+        "title": "Cách đọc báo cáo tổng quan (thời gian thực)?",
+        "excerpt": "Trang Tổng quan cung cấp cập nhật theo thời gian thực về những gì đang diễn ra trong tài khoản của bạn — có bao nhiêu cuộc hội thoại đang mở, nhân viên hỗ trợ nào đang hoạt động, v.v. Để xem Báo cáo tổng quan, vào Báo cáo → Tổng quan. Giao "
+      },
+      {
+        "slug": "1677693868-how-to-read-csat-reports",
+        "title": "Cách đọc Báo cáo CSAT?",
+        "excerpt": "Nếu bạn đã bật khảo sát CSAT trong các inbox của mình, bạn có thể phân tích kết quả bằng báo cáo CSAT. Để xem Báo cáo CSAT, hãy đi đến Báo cáo → CSAT. Đây là giao diện trông như thế này: Tùy chỉnh Báo cáo CSAT Báo cáo CSAT có thể được lọc t"
+      },
+      {
+        "slug": "1724140319-how-to-read-conversations-report",
+        "title": "Cách đọc Báo cáo Cuộc hội thoại?",
+        "excerpt": "Báo cáo cuộc hội thoại là tổng quan về tất cả các cuộc hội thoại của bạn trong một khoảng thời gian. Với Báo cáo Cuộc hội thoại, bạn có thể tìm hiểu các chỉ số quan trọng về tình trạng các cuộc hội thoại của mình, như khối lượng tin nhắn, T"
+      },
+      {
+        "slug": "1724141456-how-to-read-the-bot-reports",
+        "title": "Cách đọc Báo cáo bot?",
+        "excerpt": "Báo cáo bot là tổng quan về hoạt động bot trên tài khoản của bạn, bao gồm cả CSML và Dialogflow. Báo cáo này hiển thị dữ liệu từ tất cả các inbox có bot đang hoạt động. Nó có các chỉ số và biểu đồ sau Chỉ số Số cuộc hội thoại: Tổng số cuộc "
+      },
+      {
+        "slug": "1724145182-how-to-read-sla-reports",
+        "title": "Cách đọc báo cáo SLA?",
+        "excerpt": "Thỏa thuận mức dịch vụ (SLA) là các thỏa thuận hợp đồng giữa bạn và khách hàng, xác định mức độ dịch vụ bạn cam kết cung cấp. SLA của bạn chỉ định các chỉ số hiệu suất dự kiến, chẳng hạn như thời gian phản hồi, mức độ khả dụng và thời gian "
+      },
+      {
+        "slug": "1677694691-reading-conversations-agents-labels-inbox-and-team-reports",
+        "title": "Đọc báo cáo Cuộc hội thoại, Nhân viên hỗ trợ, Nhãn, Inbox và Nhóm",
+        "excerpt": "Trong SquareHub, các báo cáo Cuộc hội thoại, Nhân viên hỗ trợ, Nhãn, Inbox và Nhóm đều có thể được đọc bằng cùng một bộ chỉ số. Giao diện báo cáo điển hình trông như ảnh chụp màn hình dưới đây, với biểu đồ cho từng chỉ số. Ý nghĩa của từng "
+      },
+      {
+        "slug": "1713170964-how-to-read-the-sla-reports",
+        "title": "Cách đọc báo cáo SLA",
+        "excerpt": "Báo cáo SLA cung cấp tổng quan về mức độ tuân thủ của nhóm bạn đối với các thỏa thuận đã ký kết. Tỷ lệ Đạt (Hit Rate) là chỉ số quan trọng nhất cần theo dõi — nó đo lường tỷ lệ phần trăm SLA được tuân thủ thành công. Tỷ lệ đạt càng cao thì "
+      }
+    ]
+  },
+  "setup-account": {
+    "slug": "setup-account",
+    "emoji": "👝",
+    "title": "Thiết lập tài khoản",
+    "description": "Thiết lập tài khoản, không gian làm việc, nhóm, người dùng và các cấu hình cơ bản trước khi vận hành chính thức.",
+    "articleCount": 7,
+    "authorsText": "Bởi Thanh Phong",
+    "authors": [
+      {
+        "name": "Thanh Phong",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677242820-create-your-chatwoot-account",
+        "title": "Tạo tài khoản SquareHub",
+        "excerpt": "Hướng dẫn này sẽ giúp bạn tạo tài khoản SquareHub mới — dù bạn đang sử dụng SquareHub Cloud (phiên bản được lưu trữ tại squarehub.com ) hay cài đặt tự lưu trữ của riêng bạn. Cloud hay tự lưu trữ? Chọn phương thức phù hợp với cách thiết lập "
+      },
+      {
+        "slug": "1677477447-customizing-your-personal-profile",
+        "title": "Tùy chỉnh hồ sơ cá nhân của bạn",
+        "excerpt": "Trang Cài đặt Hồ sơ là nơi bạn cá nhân hóa SquareHub cho riêng mình — tên và ảnh đại diện, giao diện bảng điều khiển, cách gửi tin nhắn, chữ ký, mật khẩu, thông báo và API access token. Mọi thứ trên trang này chỉ áp dụng cho bạn ; không có "
+      },
+      {
+        "slug": "1731478912-setting-up-notifications",
+        "title": "Thiết lập thông báo",
+        "excerpt": "Để truy cập cài đặt thông báo, mở cài đặt hồ sơ từ menu hồ sơ trên thanh bên. Tại đây, bạn sẽ thấy tất cả cài đặt liên quan đến hồ sơ của mình, bao gồm cấu hình cho thông báo âm thanh, email và push notification. Lưu ý: Các cài đặt này chỉ "
+      },
+      {
+        "slug": "1677480617-customizing-your-general-settings",
+        "title": "Cập nhật cài đặt tài khoản",
+        "excerpt": "Trang Cài đặt Tài khoản là nơi quản trị viên đặt các thông tin cấp cao nhất về tài khoản SquareHub — tên, ngôn ngữ mặc định, v.v. Tìm ở đâu: Cài đặt → Cài đặt Tài khoản . Tiêu đề trang hiển thị \"Cài đặt tài khoản\" . Ai có thể truy cập: chỉ "
+      },
+      {
+        "slug": "1677482414-adding-agents",
+        "title": "Cách mời nhân viên hỗ trợ và quản lý nhóm hỗ trợ của bạn?",
+        "excerpt": "Một nhân viên hỗ trợ là bất kỳ ai trong nhóm của bạn có quyền truy cập vào SquareHub để xử lý các cuộc hội thoại với khách hàng. Mỗi người đăng nhập vào tài khoản SquareHub của bạn đều là một nhân viên hỗ trợ — không có khái niệm \"người dùn"
+      },
+      {
+        "slug": "1677492191-adding-inboxes",
+        "title": "Kênh là gì? Inbox là gì?",
+        "excerpt": "Một kênh là một loại giao tiếp — Website, Email, WhatsApp, SMS, v.v. Một inbox là một phiên bản cụ thể của kênh được kết nối với tài khoản của bạn. Bạn có thể có nhiều inbox cùng loại kênh — ví dụ: một Website inbox cho trang marketing và m"
+      },
+      {
+        "slug": "1677492970-adding-teams",
+        "title": "Hướng dẫn toàn diện về nhóm trong SquareHub",
+        "excerpt": "Một nhóm là tập hợp các nhân viên hỗ trợ trong tài khoản của bạn, được tổ chức theo trách nhiệm chung — ví dụ: nhóm Bán hàng, nhóm Hỗ trợ, hoặc nhóm Kỹ thuật. Nhóm là khái niệm cấp tài khoản: chúng hoạt động xuyên suốt các inbox, và một nhâ"
+      }
+    ]
+  },
+  "voice-channels": {
+    "slug": "voice-channels",
+    "emoji": "📞",
+    "title": "Kênh thoại",
+    "description": "Tìm hiểu cách kết nối nhà cung cấp dịch vụ thoại, quản lý cuộc gọi đến và cấu hình hỗ trợ qua điện thoại trong SquareHub.",
+    "articleCount": 3,
+    "authorsText": "Bởi Thanh Phong",
+    "authors": [
+      {
+        "name": "Thanh Phong",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1779863425-voice-calling-in-chatwoot",
+        "title": "Gọi thoại trong SquareHub",
+        "excerpt": "Nói chuyện trực tiếp với khách hàng qua điện thoại, ngay trong inbox bạn đang dùng để xử lý chat. Hướng dẫn này gồm ba phần: Gọi thoại là gì và lợi ích mang lại : tổng quan về tính năng gọi thoại Kết nối kênh thoại : thiết lập cho từng nhà "
+      },
+      {
+        "slug": "1779871614-connecting-twilio-voice-channel",
+        "title": "Kết nối kênh thoại Twilio",
+        "excerpt": "Với Twilio Voice, khách hàng gọi đến một số điện thoại thực và nhân viên hỗ trợ trả lời trực tiếp trên trình duyệt. Những thông tin bạn cần từ tài khoản Twilio: Account SID và Auth Token Một API Key SID và API Key Secret (token bảo mật để k"
+      },
+      {
+        "slug": "1779871708-connecting-whats_app-voice-channel",
+        "title": "Kết nối kênh gọi thoại WhatsApp",
+        "excerpt": "Với WhatsApp Calling, khách hàng gọi trực tiếp đến số doanh nghiệp của bạn từ ứng dụng WhatsApp, và nhân viên hỗ trợ trả lời trên trình duyệt của họ. Trước khi bắt đầu: Inbox phải là inbox WhatsApp Cloud (WhatsApp Cloud API chính thức). Các"
+      }
+    ]
+  },
+  "website-live-chat": {
+    "slug": "website-live-chat",
+    "emoji": "💬",
+    "title": "Live chat trên website",
+    "description": "Tìm hiểu cách cài đặt, cấu hình và tùy chỉnh tiện ích live chat của SquareHub trên website hoặc ứng dụng của bạn.",
+    "articleCount": 13,
+    "authorsText": "Bởi Tami",
+    "authors": [
+      {
+        "name": "Tami",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "1677580558-website-live-chat-settings-explained",
+        "title": "Giải thích các cài đặt live chat trên website",
+        "excerpt": "Tài liệu này sẽ giúp bạn thiết lập đầy đủ live chat trên website. Tài liệu giải thích cách tạo và sử dụng các cài đặt bổ sung cho một inbox website theo mong muốn. Tương thích và yêu cầu ​ Bảng điều khiển web và widget live chat hoạt động v"
+      },
+      {
+        "slug": "1677588225-how-to-install-live-chat-using-google-tag-manager",
+        "title": "Cách cài đặt live chat bằng Google Tag Manager?",
+        "excerpt": "Nếu bạn đang sử dụng Google Tag Manager trên trang web, bạn có thể cài đặt SquareHub từ bảng điều khiển của Google Tag Manager bằng cách tạo tag mới cho SquareHub. Để cài đặt widget live chat SquareHub, vui lòng làm theo các bước bên dưới. "
+      },
+      {
+        "slug": "1677669621-how-to-install-live-chat-on-a-docusaurus-website",
+        "title": "Cách cài đặt live chat trên website Docusaurus?",
+        "excerpt": "SquareHub tích hợp liền mạch với Docusaurus thông qua . Plugin này giúp bạn dễ dàng cài đặt widget live chat của SquareHub trên website được xây dựng bằng Docusaurus. Để cài đặt plugin, hãy làm theo các bước nhanh được hướng dẫn bên dưới. B"
+      },
+      {
+        "slug": "1677671793-how-to-install-live-chat-on-a-webflow-website",
+        "title": "Cách cài đặt live chat trên website Webflow?",
+        "excerpt": "Nếu website của bạn được tạo bằng Webflow và bạn muốn nói chuyện với khách truy cập website Webflow theo thời gian thực, bạn có thể thêm widget live chat của SquareHub vào website. Thực hiện theo các bước mô tả bên dưới. Bước 1. Tạo inbox w"
+      },
+      {
+        "slug": "1677671443-how-to-install-live-chat-on-a-gatsby-website",
+        "title": "Cách cài đặt live chat trên website Gatsby?",
+        "excerpt": "Nếu bạn có website được tạo trên Gatsby, bạn có thể thêm widget live chat của SquareHub và trò chuyện với khách truy cập theo thời gian thực. Việc này có thể thực hiện trong 3 bước đơn giản bằng plugin Gatsby của SquareHub. Bước 1. Thêm plu"
+      },
+      {
+        "slug": "1677669989-how-to-install-live-chat-on-a-word_press-website",
+        "title": "Cách cài đặt live chat trên website WordPress?",
+        "excerpt": "WordPress là một Hệ thống Quản lý Nội dung phổ biến. Nếu bạn đang lưu trữ website trên WordPress, bạn có thể thêm chat widget live chat của SquareHub và trò chuyện với khách truy cập theo thời gian thực. Điều này có thể thực hiện trong 4 bư"
+      },
+      {
+        "slug": "1677672686-how-to-install-live_chat-on-a-react-native-app",
+        "title": "Cách cài đặt live chat trên ứng dụng React Native?",
+        "excerpt": "Nếu bạn có ứng dụng React Native, bạn có thể thêm widget live chat SquareHub và trò chuyện với khách truy cập theo thời gian thực. Điều này có thể thực hiện trong 3 bước đơn giản bằng cách sử dụng plugin SquareHub. Bước 1. Tạo website inbox"
+      },
+      {
+        "slug": "1677676986-how-to-install-live_chat-on-a-next-js-app",
+        "title": "Cách cài đặt live chat trên ứng dụng Next.js?",
+        "excerpt": "Nếu bạn có ứng dụng Next.js, bạn có thể thêm widget live chat SquareHub và trò chuyện với khách truy cập theo thời gian thực. Để tích hợp SquareHub với ứng dụng Next.js của bạn, bạn cần một component tải script SquareHub. Bạn có thể thực hi"
+      },
+      {
+        "slug": "1677677232-how-to-install-live_chat-on-a-vue-js-app",
+        "title": "Cách cài đặt live chat trên ứng dụng Vue.js?",
+        "excerpt": "Để tích hợp SquareHub với ứng dụng Vue.js của bạn, bạn cần dán script widget SquareHub vào file của ứng dụng Vue.js. Đây là cách thực hiện: Bước 1. Lấy script widget của bạn ​ Script widget của bạn có thể được tìm thấy trong cài đặt Website"
+      },
+      {
+        "slug": "1677587234-how-to-send-additional-user-information-to-chatwoot-using-sdk",
+        "title": "Cách gửi thông tin người dùng bổ sung đến SquareHub bằng SDK?",
+        "excerpt": "SDK trang web SquareHub cho phép bạn gửi thông tin người dùng bổ sung đến SquareHub. Nếu bạn đã cài đặt mã của chúng tôi trên trang web, SDK sẽ hiển thị đối tượng . Để đảm bảo SDK đã được tải hoàn toàn, hãy đảm bảo bạn lắng nghe sự kiện như"
+      },
+      {
+        "slug": "1677587761-how-to-continue-conversations-through-email",
+        "title": "Cách tiếp tục cuộc hội thoại qua email?",
+        "excerpt": "Khách hàng của bạn có thể tiếp tục cuộc trò chuyện chat với nhân viên hỗ trợ qua chuỗi email. Điều này có thể cần thiết trong các trường hợp sau. Không có nhân viên hỗ trợ nào trực tuyến và khách hàng để lại tin nhắn trong chat. Khách hàng "
+      },
+      {
+        "slug": "1677587479-how-to-enable-identity-validation-in-chatwoot",
+        "title": "Cách bật xác thực danh tính trong SquareHub?",
+        "excerpt": "Xác thực danh tính giúp đảm bảo các cuộc hội thoại giữa khách hàng và nhân viên hỗ trợ được bảo mật. Nó cũng giúp ngăn chặn mạo danh. Xác thực danh tính có thể được bật bằng cách tạo HMAC. Khóa dùng để tạo HMAC cho mỗi web widget khác nhau "
+      },
+      {
+        "slug": "1677587636-how-to-enable-dark-mode-on-live_chat-widget",
+        "title": "Cách bật chế độ tối trên widget live chat?",
+        "excerpt": "Các trang web hiện đại cho phép người dùng chuyển đổi giữa chế độ sáng và tối. Do đó, live chat hoạt động với cả hai giao diện là rất quan trọng. Hướng dẫn này giúp bạn thiết lập chế độ tối cho widget live chat SquareHub trên trang web của "
+      }
+    ]
+  },
+  "ban-hang-tu-dong-hoa": {
+    "slug": "ban-hang-tu-dong-hoa",
+    "emoji": "🛒",
+    "title": "Bán hàng & Tự động hóa",
+    "description": "Xây dựng luồng hội thoại tự động và kịch bản bán hàng cho cửa hàng bằng Flow Builder.",
+    "articleCount": 2,
+    "authorsText": "Bởi Khoa Tuyên và Tami",
+    "authors": [
+      {
+        "name": "Khoa Tuyên",
+        "avatar": ""
+      },
+      {
+        "name": "Tami",
+        "avatar": ""
+      }
+    ],
+    "articles": [
+      {
+        "slug": "9000002-flow-builder-luong-tu-dong",
+        "title": "Hướng dẫn sử dụng Flow Builder (Luồng tự động)",
+        "excerpt": "Flow Builder (Luồng tự động) là công cụ kéo–thả giúp bạn xây dựng kịch bản hội thoại tự động cho SquareHub mà không cần viết code. Bạn ghép các nút (node) thành một luồng: khi có sự kiện xảy ra, hệ thống đi theo luồng để kiểm tra điều kiện "
+      },
+      {
+        "slug": "9000001-kich-ban-ban-hang-tro-ly-square",
+        "title": "Tạo kịch bản bán hàng với Flow Builder",
+        "excerpt": "Bạn có thể dựng nhanh các kịch bản bán hàng cho cửa hàng bằng Flow Builder (Luồng tự động) mà không cần viết code. SquareHub có sẵn nhóm mẫu Cửa hàng TMĐT giúp tự động hoá các tình huống bán hàng thường gặp: tư vấn sản phẩm, chốt đơn, tra c"
+      }
+    ]
+  }
+}
