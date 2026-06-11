@@ -2,6 +2,7 @@ import Link from "next/link";
 import Shell from "@/components/Shell";
 import SearchBox from "@/components/SearchBox";
 import AuthorStack from "@/components/AuthorStack";
+import HeroOrbit from "@/components/HeroOrbit";
 import { home } from "@/lib/data";
 import { categoryIcon } from "@/lib/categoryIcons";
 
@@ -15,7 +16,7 @@ export default function HomePage() {
           className="absolute inset-0 pointer-events-none text-n-portal-faint [background-image:linear-gradient(to_right,currentColor_1px,transparent_1px),linear-gradient(to_bottom,currentColor_1px,transparent_1px)] [background-size:56px_56px] [mask-image:radial-gradient(ellipse_at_50%_30%,black_35%,transparent_80%)] [-webkit-mask-image:radial-gradient(ellipse_at_50%_30%,black_35%,transparent_80%)]"
           aria-hidden="true"
         />
-        <div className="relative w-full px-6 md:px-10 py-12 md:py-16">
+        <div className="relative w-full px-6 md:px-10 py-12 md:py-16 flex items-center justify-between gap-8">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl !leading-tight font-620 tracking-tight text-n-slate-12 text-balance">
               Xin chào 👋, chúng tôi có thể giúp gì cho bạn?
@@ -44,6 +45,10 @@ export default function HomePage() {
                 </Link>
               ))}
             </div>
+          </div>
+
+          <div className="hidden min-[1400px]:block shrink-0 pe-4 2xl:pe-12">
+            <HeroOrbit />
           </div>
         </div>
       </section>

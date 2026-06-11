@@ -106,3 +106,127 @@ body {
 summary::-webkit-details-marker {
   display: none;
 }
+
+/* ---------------------------------------------------------------------------
+   Hero integration orbit — decorative rotating rings of integration logos.
+   Self-hosted SVGs live in /assets/images/orbit. Sizing kept 1:1 with the
+   original design; only image URLs and the centre icon are project-specific.
+   --------------------------------------------------------------------------- */
+.orbit {
+  /* Scale the whole constellation (rings, icons, centre, radii) uniformly. */
+  transform: scale(0.85);
+  transform-origin: center center;
+}
+
+.orbit ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.orbit-wrap {
+  position: relative;
+  height: 30em;
+  width: 30em;
+  list-style: none;
+  font-size: 1.3em;
+}
+
+.orbit-wrap > li {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.orbit-icon {
+  width: 48px;
+  height: 48px;
+  display: block;
+  background-image: url(/assets/images/orbit/social/website.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.orbit-ring-1,
+.orbit-ring-2,
+.orbit-ring-3 {
+  border: 2.13px dashed rgb(var(--border-weak) / var(--tw-border-opacity, 1));
+  position: relative;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+  box-sizing: content-box;
+  transition: all 300ms ease-in-out;
+}
+
+.orbit-ring-1 li,
+.orbit-ring-2 li,
+.orbit-ring-3 li {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 48px;
+  height: 48px;
+  margin: -24px; /* centre the 48px icon box exactly on the orbit point */
+  transition: all 300ms ease-in-out;
+}
+
+/* Ring 1 — 6 icons spaced evenly on the 470px ring (radius ≈ 235px). */
+.orbit-ring-1 {
+  width: 470px;
+  height: 470px;
+}
+.orbit-ring-1 > *:nth-of-type(1) { transform: rotate(0deg) translate(235px) rotate(0deg); }
+.orbit-ring-1 > *:nth-of-type(2) { transform: rotate(65deg) translate(235px) rotate(-65deg); }
+.orbit-ring-1 > *:nth-of-type(3) { transform: rotate(131deg) translate(235px) rotate(-131deg); }
+.orbit-ring-1 > *:nth-of-type(4) { transform: rotate(196deg) translate(235px) rotate(-196deg); }
+.orbit-ring-1 > *:nth-of-type(5) { transform: rotate(262deg) translate(235px) rotate(-262deg); }
+.orbit-ring-1 > *:nth-of-type(6) { transform: rotate(327deg) translate(235px) rotate(-327deg); }
+
+/* Ring 2 — 3 icons interleaved with ring 1 on the 352px ring (radius ≈ 176px). */
+.orbit-ring-2 {
+  width: 352px;
+  height: 352px;
+}
+.orbit-ring-2 > *:nth-of-type(1) { transform: rotate(33deg) translate(176px) rotate(-33deg); }
+.orbit-ring-2 > *:nth-of-type(2) { transform: rotate(164deg) translate(176px) rotate(-164deg); }
+.orbit-ring-2 > *:nth-of-type(3) { transform: rotate(295deg) translate(176px) rotate(-295deg); }
+
+/* Ring 3 — 2 icons in the remaining gaps on the 228px ring (radius ≈ 114px). */
+.orbit-ring-3 {
+  width: 228px;
+  height: 228px;
+}
+.orbit-ring-3 > *:nth-of-type(1) { transform: rotate(98deg) translate(114px) rotate(-98deg); }
+.orbit-ring-3 > *:nth-of-type(2) { transform: rotate(229deg) translate(114px) rotate(-229deg); }
+
+/* Centre icon */
+.orbit-center__icon {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  background: var(--color-n-slate-1, #fff);
+  padding: 6px;
+  box-shadow: 0px 9.11px 18px 0px #0000002b;
+  transition: transform 300ms ease-in-out;
+}
+.orbit-center:hover .orbit-center__icon {
+  transform: scale(1.06);
+}
+
+/* Channel badge backgrounds (self-hosted) */
+.ch-facebook { background-image: url(/assets/images/orbit/social/facebook.png); }
+.ch-instagram { background-image: url(/assets/images/orbit/social/instagram.png); }
+.ch-whatsapp { background-image: url(/assets/images/orbit/social/whatsapp.png); }
+.ch-messenger { background-image: url(/assets/images/orbit/social/messenger.png); }
+.ch-telegram { background-image: url(/assets/images/orbit/social/telegram.png); }
+.ch-zalo { background-image: url(/assets/images/orbit/social/zalo.png); }
+.ch-line { background-image: url(/assets/images/orbit/social/line.png); }
+.ch-wechat { background-image: url(/assets/images/orbit/social/wechat.png); }
+.ch-tiktok { background-image: url(/assets/images/orbit/social/tiktok.png); }
+.ch-website { background-image: url(/assets/images/orbit/social/website.png); }
+.ch-chotot { background-image: url(/assets/images/orbit/social/chotot.png); }
