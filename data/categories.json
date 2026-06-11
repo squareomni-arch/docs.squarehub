@@ -109,7 +109,7 @@
         "excerpt": "Thuộc tính bắt buộc của hội thoại cho phép quản trị viên yêu cầu nhân viên hỗ trợ điền các thuộc tính tùy chỉnh cụ thể trước khi giải quyết một cuộc hội thoại. Điều này đảm bảo nhóm của bạn thu thập dữ liệu có cấu trúc nhất quán — dù là dan"
       },
       {
-        "slug": "1763978164-chatwoot-assignment-v2",
+        "slug": "1763978164-squarehub-assignment-v2",
         "title": "Chính sách phân công nâng cao",
         "excerpt": "Tổng quan Tính năng phân công nâng cao giới thiệu hệ thống phân công cuộc hội thoại dựa trên chính sách toàn diện. Hệ thống này cung cấp quản lý tập trung, các thuật toán tiên tiến và kiểm soát năng lực cấp doanh nghiệp. Tình trạng khả dụng"
       }
@@ -130,7 +130,7 @@
     ],
     "articles": [
       {
-        "slug": "1677743452-how-to-integrate-your-dialogflow-chatbot-with-chatwoot",
+        "slug": "1677743452-how-to-integrate-your-dialogflow-chatbot-with-squarehub",
         "title": "Cách tích hợp chatbot Dialogflow vào SquareHub?",
         "excerpt": "Chatbot rất hữu ích cho nhiều nhóm chăm sóc khách hàng. Chúng xử lý hiệu quả các câu hỏi đơn giản và giải phóng nhân viên hỗ trợ để tập trung vào những vấn đề quan trọng hơn. Dialogflow và Rasa.ai là các nền tảng NLP (Xử lý Ngôn ngữ Tự nhiê"
       },
@@ -262,7 +262,7 @@
         "excerpt": "Hướng dẫn này giải thích cách AI credits được tiêu thụ, cách credits của bạn được cập nhật khi nạp thêm, khi nào diễn ra việc gia hạn hàng tháng, điều gì xảy ra khi bạn thay đổi gói, và cách thức thông báo khi credits của bạn hết. AI credit"
       },
       {
-        "slug": "1765224466-updating-robots-txt-to-allow-chatwoot-assistant-to-crawl-your-website",
+        "slug": "1765224466-updating-robots-txt-to-allow-squarehub-assistant-to-crawl-your-website",
         "title": "Cập nhật robots.txt để cho phép SquareHub Assistant thu thập dữ liệu từ trang web của bạn",
         "excerpt": "SquareHub sử dụng Firecrawl nội bộ để tải và lập chỉ mục nội dung trang web của bạn. Điều này cho phép SquareHub Assistant trả lời các câu hỏi bằng cách sử dụng thông tin từ trang web của bạn. However, if your website’s robots.txt has Disal"
       },
@@ -273,8 +273,8 @@
       }
     ]
   },
-  "chatwoot-101": {
-    "slug": "chatwoot-101",
+  "squarehub-101": {
+    "slug": "squarehub-101",
     "emoji": "🚀",
     "title": "SquareHub 101",
     "description": "Bắt đầu từ đây để hiểu SquareHub, các khái niệm cốt lõi và cách nền tảng giúp bạn quản lý hội thoại với khách hàng.",
@@ -292,17 +292,17 @@
     ],
     "articles": [
       {
-        "slug": "1677141565-chatwoot-glossary",
+        "slug": "1677141565-squarehub-glossary",
         "title": "Bảng thuật ngữ SquareHub",
         "excerpt": "Tài liệu tham khảo các thuật ngữ, tính năng và khái niệm phổ biến được sử dụng trong SquareHub. A Access Token Các API của ứng dụng được thiết kế để tương tác với tài khoản SquareHub từ góc độ người dùng. Vì vậy, để tích hợp ứng dụng và xác"
       },
       {
-        "slug": "1673260810-getting-started-chatwoot-101",
+        "slug": "1673260810-getting-started-squarehub-101",
         "title": "Bắt đầu với SquareHub",
         "excerpt": "Chào mừng bạn đến với SquareHub. Hướng dẫn này sẽ giúp bạn thiết lập tài khoản và hiểu những kiến thức cơ bản cần thiết để bắt đầu hỗ trợ khách hàng. Hướng dẫn được thiết kế cho người dùng lần đầu, vì vậy bạn có thể làm theo mà không cần ki"
       },
       {
-        "slug": "1677229173-lesson-1-your-first-chatwoot-conversation",
+        "slug": "1677229173-lesson-1-your-first-squarehub-conversation",
         "title": "Bài học 1: Cuộc hội thoại đầu tiên của bạn trên SquareHub",
         "excerpt": "Chào mừng bạn đến với SquareHub! Đây là điểm dừng đầu tiên trong một chuỗi bài thực hành đưa bạn từ một tài khoản mới toanh đến một bộ phận hỗ trợ hoạt động đầy đủ. Khi kết thúc bài học này, bạn sẽ có một website inbox hoạt động và đã trả l"
       },
@@ -403,7 +403,7 @@
         "excerpt": "Vai trò tùy chỉnh là các bộ quyền có thể tái sử dụng mà bạn có thể gán cho các thành viên trong không gian làm việc SquareHub của mình. Điều này giúp dễ dàng cập nhật quyền cho nhiều thành viên nhóm cùng một lúc. Tạo vai trò tùy chỉnh mới Đ"
       },
       {
-        "slug": "1768303449-whats_app-csat-surveys-in-chatwoot",
+        "slug": "1768303449-whats_app-csat-surveys-in-squarehub",
         "title": "Khảo sát CSAT trên WhatsApp bằng Template",
         "excerpt": "Khảo sát mức độ hài lòng của khách hàng (CSAT) giúp bạn hiểu khách hàng hài lòng như thế nào với dịch vụ hỗ trợ họ nhận được trên WhatsApp. SquareHub hiện hỗ trợ khảo sát CSAT qua template tin nhắn WhatsApp , nhờ đó khảo sát có thể được gửi"
       },
@@ -469,12 +469,12 @@
     ],
     "articles": [
       {
-        "slug": "1750735898-purchasing-a-paid-self_hosted-chatwoot-license-a-step_by_step-guide",
+        "slug": "1750735898-purchasing-a-paid-self_hosted-squarehub-license-a-step_by_step-guide",
         "title": "Hướng dẫn từng bước mua giấy phép SquareHub Self-Hosted trả phí",
         "excerpt": "Tổng quan về các sản phẩm SquareHub SquareHub cung cấp hai tùy chọn sản phẩm phù hợp với nhu cầu của bạn: SquareHub Cloud Version (Phiên bản đám mây) : Chúng tôi quản lý toàn bộ hạ tầng và bảo trì để bạn tập trung vào hoạt động kinh doanh. "
       },
       {
-        "slug": "1757445004-how-to-find-your-personal-access-token-in-chatwoot",
+        "slug": "1757445004-how-to-find-your-personal-access-token-in-squarehub",
         "title": "Cách tìm Personal Access Token của bạn trong SquareHub",
         "excerpt": "SquareHub cung cấp bộ API miễn phí, công khai toàn diện cho tất cả người dùng. Bạn có thể khám phá tài liệu API đầy đủ của chúng tôi tại đây . Để thực hiện các lệnh gọi API đến tài khoản SquareHub của bạn, bạn cần Personal Access Token để x"
       },
@@ -484,12 +484,12 @@
         "excerpt": "Bạn muốn tích hợp các bài viết từ trung tâm trợ giúp trực tiếp vào widget live chat? Tính năng mạnh mẽ này cho phép khách hàng truy cập nội dung hỗ trợ mà không cần rời khỏi giao diện chat, tạo ra trải nghiệm hỗ trợ liền mạch. SquareHub cun"
       },
       {
-        "slug": "1757447973-how-to-change-your-email-address-in-chatwoot",
+        "slug": "1757447973-how-to-change-your-email-address-in-squarehub",
         "title": "Cách thay đổi địa chỉ email của bạn trong SquareHub",
         "excerpt": "SquareHub cho phép bạn cập nhật địa chỉ email được liên kết với tài khoản của bạn bất kỳ lúc nào. Điều này bao gồm việc thay đổi địa chỉ email gốc bạn đã sử dụng khi tạo tài khoản SquareHub. Làm theo hướng dẫn từng bước này để cập nhật địa "
       },
       {
-        "slug": "1757451305-how-to-remove-the-free-usage-limit-exceeded-message-in-chatwoot",
+        "slug": "1757451305-how-to-remove-the-free-usage-limit-exceeded-message-in-squarehub",
         "title": "Cách xóa thông báo vượt giới hạn sử dụng miễn phí trong SquareHub",
         "excerpt": "SquareHub cung cấp Gói Hacker (bậc miễn phí) hào phóng cho tất cả người dùng. Tuy nhiên, gói miễn phí này có những giới hạn cụ thể để đảm bảo sử dụng công bằng cho tất cả tài khoản. Giới hạn của Gói Miễn phí Gói Hacker bao gồm các hạn chế s"
       },
@@ -515,22 +515,22 @@
     ],
     "articles": [
       {
-        "slug": "1696162098-how-to-migrate-from-intercom-to-chatwoot",
+        "slug": "1696162098-how-to-migrate-from-intercom-to-squarehub",
         "title": "Cách di chuyển từ Intercom sang SquareHub?",
         "excerpt": "Nếu bạn đang sử dụng Intercom và muốn chuyển sang SquareHub, hướng dẫn này sẽ dẫn bạn qua quy trình từng bước để di chuyển các cuộc hội thoại, liên hệ, widget live chat và thiết lập SquareHub. Đây là một quy trình rất nhanh; hãy bắt đầu nga"
       },
       {
-        "slug": "1696163019-how-to-migrate-from-front-to-chatwoot",
+        "slug": "1696163019-how-to-migrate-from-front-to-squarehub",
         "title": "Cách di chuyển từ Front sang SquareHub?",
         "excerpt": "Nếu bạn đang dùng Front và muốn chuyển sang SquareHub, hướng dẫn này sẽ đưa bạn qua từng bước di chuyển cuộc hội thoại, liên hệ, widget live chat và thiết lập SquareHub. Đây là một quá trình rất nhanh; hãy bắt đầu thôi. Trước khi bắt đầu Tr"
       },
       {
-        "slug": "1696159781-how-to-migrate-from-freshdesk-to-chatwoot",
+        "slug": "1696159781-how-to-migrate-from-freshdesk-to-squarehub",
         "title": "Cách chuyển dữ liệu từ Freshdesk sang SquareHub?",
         "excerpt": "Nếu bạn đang sử dụng Freshdesk và muốn chuyển sang SquareHub, hướng dẫn này sẽ đưa bạn qua từng bước của quá trình di chuyển cuộc hội thoại, liên hệ, widget live chat và thiết lập SquareHub. Đây là một quá trình rất nhanh; hãy bắt đầu thôi."
       },
       {
-        "slug": "1696162432-how-to-migrate-from-zendesk-to-chatwoot",
+        "slug": "1696162432-how-to-migrate-from-zendesk-to-squarehub",
         "title": "Cách chuyển đổi từ Zendesk sang SquareHub?",
         "excerpt": "Nếu bạn đang sử dụng Zendesk và muốn chuyển sang SquareHub, hướng dẫn này sẽ đưa bạn qua từng bước trong quá trình di chuyển các cuộc hội thoại, liên hệ, widget live chat và thiết lập SquareHub. Đây là một quá trình rất nhanh; hãy bắt đầu t"
       }
@@ -636,12 +636,12 @@
     ],
     "articles": [
       {
-        "slug": "1677778232-which-cookies-are-used-by-chatwoot",
+        "slug": "1677778232-which-cookies-are-used-by-squarehub",
         "title": "SquareHub sử dụng những cookie nào?",
         "excerpt": "SquareHub sử dụng các cookie sau. Widget Chat ​ : Cookie này cho phép SquareHub duy trì cuộc hội thoại khi liên hệ điều hướng qua các trang web hoặc truy cập lại website sau đó. : Cookie này được dùng để lưu tạm thông tin liên hệ nếu liên h"
       },
       {
-        "slug": "1677695546-languages-supported-in-chatwoot",
+        "slug": "1677695546-languages-supported-in-squarehub",
         "title": "Các ngôn ngữ được hỗ trợ trong SquareHub",
         "excerpt": "SquareHub hỗ trợ tự nhiên hơn 30 ngôn ngữ khác nhau. Hướng dẫn này sẽ minh họa cách bật một ngôn ngữ cụ thể để sử dụng với bảng điều khiển và live chat widget của bạn. Các ngôn ngữ được hỗ trợ Dưới đây là các ngôn ngữ được hỗ trợ trong Squa"
       },
@@ -738,7 +738,7 @@
     ],
     "articles": [
       {
-        "slug": "1677242820-create-your-chatwoot-account",
+        "slug": "1677242820-create-your-squarehub-account",
         "title": "Tạo tài khoản SquareHub",
         "excerpt": "Hướng dẫn này sẽ giúp bạn tạo tài khoản SquareHub mới — dù bạn đang sử dụng SquareHub Cloud (phiên bản được lưu trữ tại squarehub.com ) hay cài đặt tự lưu trữ của riêng bạn. Cloud hay tự lưu trữ? Chọn phương thức phù hợp với cách thiết lập "
       },
@@ -789,7 +789,7 @@
     ],
     "articles": [
       {
-        "slug": "1779863425-voice-calling-in-chatwoot",
+        "slug": "1779863425-voice-calling-in-squarehub",
         "title": "Gọi thoại trong SquareHub",
         "excerpt": "Nói chuyện trực tiếp với khách hàng qua điện thoại, ngay trong inbox bạn đang dùng để xử lý chat. Hướng dẫn này gồm ba phần: Gọi thoại là gì và lợi ích mang lại : tổng quan về tính năng gọi thoại Kết nối kênh thoại : thiết lập cho từng nhà "
       },
@@ -865,7 +865,7 @@
         "excerpt": "Để tích hợp SquareHub với ứng dụng Vue.js của bạn, bạn cần dán script widget SquareHub vào file của ứng dụng Vue.js. Đây là cách thực hiện: Bước 1. Lấy script widget của bạn ​ Script widget của bạn có thể được tìm thấy trong cài đặt Website"
       },
       {
-        "slug": "1677587234-how-to-send-additional-user-information-to-chatwoot-using-sdk",
+        "slug": "1677587234-how-to-send-additional-user-information-to-squarehub-using-sdk",
         "title": "Cách gửi thông tin người dùng bổ sung đến SquareHub bằng SDK?",
         "excerpt": "SDK trang web SquareHub cho phép bạn gửi thông tin người dùng bổ sung đến SquareHub. Nếu bạn đã cài đặt mã của chúng tôi trên trang web, SDK sẽ hiển thị đối tượng . Để đảm bảo SDK đã được tải hoàn toàn, hãy đảm bảo bạn lắng nghe sự kiện như"
       },
@@ -875,7 +875,7 @@
         "excerpt": "Khách hàng của bạn có thể tiếp tục cuộc trò chuyện chat với nhân viên hỗ trợ qua chuỗi email. Điều này có thể cần thiết trong các trường hợp sau. Không có nhân viên hỗ trợ nào trực tuyến và khách hàng để lại tin nhắn trong chat. Khách hàng "
       },
       {
-        "slug": "1677587479-how-to-enable-identity-validation-in-chatwoot",
+        "slug": "1677587479-how-to-enable-identity-validation-in-squarehub",
         "title": "Cách bật xác thực danh tính trong SquareHub?",
         "excerpt": "Xác thực danh tính giúp đảm bảo các cuộc hội thoại giữa khách hàng và nhân viên hỗ trợ được bảo mật. Nó cũng giúp ngăn chặn mạo danh. Xác thực danh tính có thể được bật bằng cách tạo HMAC. Khóa dùng để tạo HMAC cho mỗi web widget khác nhau "
       },

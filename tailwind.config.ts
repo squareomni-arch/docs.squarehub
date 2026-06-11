@@ -3,7 +3,7 @@ import { iconsPlugin, getIconCollections } from "@egoist/tailwindcss-icons";
 import typography from "@tailwindcss/typography";
 
 /**
- * Recreates the Chatwoot Help Center portal design system 1:1.
+ * Recreates the SquareHub Help Center portal design system 1:1.
  * - `n-slate-*` map to the Radix slate scale via CSS vars (see globals.css)
  * - `n-portal*` map to the dynamic portal-color vars driven by #2881F6
  * - `n-weak` / `n-alpha-*` are the portal border / alpha tokens

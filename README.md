@@ -1,6 +1,6 @@
-# Chatwoot Help Center — Next.js + Tailwind
+# SquareHub Help Center — Next.js + Tailwind
 
-A pixel-perfect rebuild of the Chatwoot User Guide as a modern **Next.js
+A pixel-perfect rebuild of the SquareHub User Guide as a modern **Next.js
 (App Router) + Tailwind CSS** application. 15 categories and 133 articles are
 rendered from structured data through a handful of shared, typed React
 components, and the whole site is statically prerendered (`next build` → 152

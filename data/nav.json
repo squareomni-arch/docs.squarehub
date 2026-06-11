@@ -2,18 +2,18 @@
   {
     "emoji": "🚀",
     "name": "SquareHub 101",
-    "slug": "chatwoot-101",
+    "slug": "squarehub-101",
     "articles": [
       {
-        "slug": "1677141565-chatwoot-glossary",
+        "slug": "1677141565-squarehub-glossary",
         "title": "Bảng thuật ngữ SquareHub"
       },
       {
-        "slug": "1673260810-getting-started-chatwoot-101",
+        "slug": "1673260810-getting-started-squarehub-101",
         "title": "Bắt đầu với SquareHub"
       },
       {
-        "slug": "1677229173-lesson-1-your-first-chatwoot-conversation",
+        "slug": "1677229173-lesson-1-your-first-squarehub-conversation",
         "title": "Bài học 1: Cuộc hội thoại đầu tiên của bạn trên SquareHub"
       },
       {
@@ -48,7 +48,7 @@
     "slug": "setup-account",
     "articles": [
       {
-        "slug": "1677242820-create-your-chatwoot-account",
+        "slug": "1677242820-create-your-squarehub-account",
         "title": "Tạo tài khoản SquareHub"
       },
       {
@@ -119,7 +119,7 @@
         "title": "Cách cài đặt live chat trên ứng dụng Vue.js?"
       },
       {
-        "slug": "1677587234-how-to-send-additional-user-information-to-chatwoot-using-sdk",
+        "slug": "1677587234-how-to-send-additional-user-information-to-squarehub-using-sdk",
         "title": "Cách gửi thông tin người dùng bổ sung đến SquareHub bằng SDK?"
       },
       {
@@ -127,7 +127,7 @@
         "title": "Cách tiếp tục cuộc hội thoại qua email?"
       },
       {
-        "slug": "1677587479-how-to-enable-identity-validation-in-chatwoot",
+        "slug": "1677587479-how-to-enable-identity-validation-in-squarehub",
         "title": "Cách bật xác thực danh tính trong SquareHub?"
       },
       {
@@ -201,7 +201,7 @@
     "slug": "voice-channels",
     "articles": [
       {
-        "slug": "1779863425-voice-calling-in-chatwoot",
+        "slug": "1779863425-voice-calling-in-squarehub",
         "title": "Gọi thoại trong SquareHub"
       },
       {
@@ -260,7 +260,7 @@
         "title": "Quản lý kiểm soát truy cập nhóm với phân quyền dựa trên vai trò linh hoạt"
       },
       {
-        "slug": "1768303449-whats_app-csat-surveys-in-chatwoot",
+        "slug": "1768303449-whats_app-csat-surveys-in-squarehub",
         "title": "Khảo sát CSAT trên WhatsApp bằng Template"
       },
       {
@@ -355,7 +355,7 @@
         "title": "Thuộc tính bắt buộc của hội thoại"
       },
       {
-        "slug": "1763978164-chatwoot-assignment-v2",
+        "slug": "1763978164-squarehub-assignment-v2",
         "title": "Chính sách phân công nâng cao"
       }
     ]
@@ -366,7 +366,7 @@
     "slug": "apps-and-integrations",
     "articles": [
       {
-        "slug": "1677743452-how-to-integrate-your-dialogflow-chatbot-with-chatwoot",
+        "slug": "1677743452-how-to-integrate-your-dialogflow-chatbot-with-squarehub",
         "title": "Cách tích hợp chatbot Dialogflow vào SquareHub?"
       },
       {
@@ -514,7 +514,7 @@
         "title": "Cách AI Credits hoạt động trong Trợ lý Square?"
       },
       {
-        "slug": "1765224466-updating-robots-txt-to-allow-chatwoot-assistant-to-crawl-your-website",
+        "slug": "1765224466-updating-robots-txt-to-allow-squarehub-assistant-to-crawl-your-website",
         "title": "Cập nhật robots.txt để cho phép SquareHub Assistant thu thập dữ liệu từ trang web của bạn"
       },
       {
@@ -544,19 +544,19 @@
     "slug": "migrations",
     "articles": [
       {
-        "slug": "1696162098-how-to-migrate-from-intercom-to-chatwoot",
+        "slug": "1696162098-how-to-migrate-from-intercom-to-squarehub",
         "title": "Cách di chuyển từ Intercom sang SquareHub?"
       },
       {
-        "slug": "1696163019-how-to-migrate-from-front-to-chatwoot",
+        "slug": "1696163019-how-to-migrate-from-front-to-squarehub",
         "title": "Cách di chuyển từ Front sang SquareHub?"
       },
       {
-        "slug": "1696159781-how-to-migrate-from-freshdesk-to-chatwoot",
+        "slug": "1696159781-how-to-migrate-from-freshdesk-to-squarehub",
         "title": "Cách chuyển dữ liệu từ Freshdesk sang SquareHub?"
       },
       {
-        "slug": "1696162432-how-to-migrate-from-zendesk-to-chatwoot",
+        "slug": "1696162432-how-to-migrate-from-zendesk-to-squarehub",
         "title": "Cách chuyển đổi từ Zendesk sang SquareHub?"
       }
     ]
@@ -567,11 +567,11 @@
     "slug": "other-topics",
     "articles": [
       {
-        "slug": "1677778232-which-cookies-are-used-by-chatwoot",
+        "slug": "1677778232-which-cookies-are-used-by-squarehub",
         "title": "SquareHub sử dụng những cookie nào?"
       },
       {
-        "slug": "1677695546-languages-supported-in-chatwoot",
+        "slug": "1677695546-languages-supported-in-squarehub",
         "title": "Các ngôn ngữ được hỗ trợ trong SquareHub"
       },
       {
@@ -602,11 +602,11 @@
     "slug": "how-to",
     "articles": [
       {
-        "slug": "1750735898-purchasing-a-paid-self_hosted-chatwoot-license-a-step_by_step-guide",
+        "slug": "1750735898-purchasing-a-paid-self_hosted-squarehub-license-a-step_by_step-guide",
         "title": "Hướng dẫn từng bước mua giấy phép SquareHub Self-Hosted trả phí"
       },
       {
-        "slug": "1757445004-how-to-find-your-personal-access-token-in-chatwoot",
+        "slug": "1757445004-how-to-find-your-personal-access-token-in-squarehub",
         "title": "Cách tìm Personal Access Token của bạn trong SquareHub"
       },
       {
@@ -614,11 +614,11 @@
         "title": "Cách nhúng bài viết Trung tâm Trợ giúp vào widget live chat"
       },
       {
-        "slug": "1757447973-how-to-change-your-email-address-in-chatwoot",
+        "slug": "1757447973-how-to-change-your-email-address-in-squarehub",
         "title": "Cách thay đổi địa chỉ email của bạn trong SquareHub"
       },
       {
-        "slug": "1757451305-how-to-remove-the-free-usage-limit-exceeded-message-in-chatwoot",
+        "slug": "1757451305-how-to-remove-the-free-usage-limit-exceeded-message-in-squarehub",
         "title": "Cách xóa thông báo vượt giới hạn sử dụng miễn phí trong SquareHub"
       },
       {

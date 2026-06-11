@@ -6,7 +6,7 @@
  * và sinh ra các utility icon tương ứng.
  */
 export const ICON_BY_SLUG: Record<string, string> = {
-  "chatwoot-101": "i-lucide-rocket",
+  "squarehub-101": "i-lucide-rocket",
   "setup-account": "i-lucide-user-cog",
   "website-live-chat": "i-lucide-message-circle",
   "other-channels": "i-lucide-share-2",

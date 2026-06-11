@@ -1,7 +1,7 @@
 {
   "heroTopics": [
     {
-      "slug": "chatwoot-101",
+      "slug": "squarehub-101",
       "emoji": "🚀",
       "name": "SquareHub 101"
     },
@@ -18,7 +18,7 @@
   ],
   "cards": [
     {
-      "slug": "chatwoot-101",
+      "slug": "squarehub-101",
       "emoji": "🚀",
       "title": "SquareHub 101",
       "description": "Bắt đầu từ đây để hiểu SquareHub, các khái niệm cốt lõi và cách nền tảng giúp bạn quản lý hội thoại với khách hàng.",
