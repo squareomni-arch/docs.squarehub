@@ -217,7 +217,7 @@
     "emoji": "🔥",
     "title": "Trợ lý Square",
     "description": "Tìm hiểu cách thiết lập và sử dụng Trợ lý Square — trợ lý AI hỗ trợ khách hàng của SquareHub.",
-    "articleCount": 9,
+    "articleCount": 10,
     "authorsText": "Bởi Khoa Tuyên",
     "authors": [
       {
@@ -226,6 +226,11 @@
       }
     ],
     "articles": [
+      {
+        "slug": "9000003-squarehub-co-san-ai-tich-hop",
+        "title": "SquareHub có AI chatbot tích hợp sẵn không?",
+        "excerpt": "Có. SquareHub có sẵn trợ lý AI tích hợp ngay trong sản phẩm — Trợ lý Square (Square Assistant). Bạn không cần Dialogflow hay chatbot bên ngoài để có AI chatbot."
+      },
       {
         "slug": "1738101283-captain-_-introduction",
         "title": "Giới thiệu về Trợ lý Square",
