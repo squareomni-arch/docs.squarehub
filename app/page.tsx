@@ -51,7 +51,7 @@ export default function HomePage() {
             <img
               src="https://cdn.prod.website-files.com/65ba24129df733a18dfde106/65c9d95b7d4c5de94dad0b83_why-use-inbox.png"
               alt=""
-              className="w-[480px] max-w-full h-auto"
+              className="w-[440px] max-w-full h-auto"
             />
           </div>
         </div>
